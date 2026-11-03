@@ -1,0 +1,15 @@
+5b98ddb	meiyasan	2026-10-29T16:53:55Z	feat(iroh-relay): keep the relay URL's path prefix (#4617)
+ebdaaef	flub	2026-10-28T13:38:21Z	chore: Update Makefile.toml to have a normal dev workflow (#4508)
+cf0d2b0	Arqu	2026-10-22T15:24:42Z	chore(ci): migrate CI runners mostly to blacksmith (#4635)
+0f91067	flub	2026-10-22T08:37:03Z	chore: use new minimal-crates CI step (#4627)
+9abdae4	matheus23	2026-10-22T07:18:55Z	feat(iroh-relay): Fix potentially leaking connections during handshake (#4621)
+d6c6963	ramfox	2026-10-21T17:06:43Z	chore: Release
+60259e1	ramfox	2026-10-21T17:01:19Z	chore: additional git-cliff fixes
+efcb1c3	ramfox	2026-10-21T16:04:24Z	chore: fix changelog (#4628)
+467bf23	flub	2026-10-21T14:06:18Z	test(iroh): more generous timeouts for slow CI boxes (#4626)
+3f4ce2f	flub	2026-10-21T10:12:01Z	deps: Update rustls-webpki to remove untrusted SPKI (#4624)
+55908a5	ramfox	2026-10-20T17:41:33Z	chore: Release
+d506cb9	ramfox	2026-10-20T17:41:18Z	chore: update noq dependency
+26dfe1d	Theodus	2026-10-20T16:46:38Z	fix(iroh): preserve relay receive outputs and retry after message drops (#4573)
+be65184	Arqu	2026-10-20T15:51:23Z	fix(dns-server): stop leaky idle connections (#4620)
+97941d6	Arqu	2026-10-20T12:24:16Z	fix: increase listen backlog on dns server (#4619)

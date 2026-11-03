@@ -1,0 +1,55 @@
+bf48901	orda-aska	2026-10-20T17:41:44Z	Merge pull request #137 from aska-digital/fix/ledger-principal-peer-106
+871001a	orda-aska	2026-10-20T17:19:48Z	Merge pull request #138 from aska-digital/chore/pin-exo-8600bce
+0883ce2	mozi	2026-10-20T16:39:54Z	Pass check explicitly to the mount test's subprocess calls
+9ae1a1f	mozi	2026-10-20T16:39:32Z	Say that the signer reads the core's principal token and cannot use it
+a9364b1	mozi	2026-10-20T16:39:32Z	Test a record mounted over run/ in another mount namespace
+0d2b8c5	mozi	2026-10-20T16:36:53Z	Test that a descriptor on a read refuses
+2c4ab3f	mozi	2026-10-20T16:35:13Z	Merge origin/main into fix/ledger-principal-peer-106
+308ecf2	mozi	2026-10-20T16:30:12Z	Move the Exo pin to 8600bce
+bbb43a0	mozi	2026-10-20T16:16:40Z	Correct the mount-namespace claims for the principal binding
+9001b81	mozi	2026-10-20T16:11:44Z	Refuse each launch-record check for its own reason, and test the pid binding
+dce300e	orda-aska	2026-10-20T16:11:16Z	Merge pull request #136 from aska-digital/fix/renderer-policy-107
+69cf70e	mozi	2026-10-20T15:47:17Z	Renumber to OS-21 and proposed OS-22: OS-20 is taken by the surface renderer decision
+17c5743	mozi	2026-10-20T15:42:24Z	Name every writer the image uses in the decision and the ledger doc
+6150f20	mozi	2026-10-20T15:37:47Z	Check the launch record's name before asking its filesystem
+b87813b	mozi	2026-10-20T15:35:58Z	Bind the principal ledger writer to the core's launch record
+613498a	mozi	2026-10-20T15:41:00Z	Emit GType names from the renderer probe and validate the no-override selection record
+8972c55	mozi	2026-10-20T15:35:50Z	Probe: any desktop-user process can append as the principal ledger writer
+3263549	mozi	2026-10-20T15:14:59Z	Probe GL in the production surface launcher and fall back to Cairo (OS-20)
+4730fbc	orda-aska	2026-10-20T14:57:08Z	Merge pull request #133 from aska-digital/docs/bankai-invariants-true
+3440694	orda-aska	2026-10-20T14:56:58Z	Merge pull request #134 from aska-digital/fix/sysd-lock-and-wait-online
+31c168f	orda-aska	2026-10-20T14:56:48Z	Merge pull request #135 from aska-digital/fix/review-followups-20261020
+07e8aa7	mozi	2026-10-20T14:35:27Z	Mask wait-online so presets cannot re-enable it; share READ_ONLY; close the audit log under its lock; pin log-lock ordering; record OS-19
+5934753	mozi	2026-10-20T14:32:21Z	Correct BANKAI I-1, I-10, I-11 and P-6 citations after review
+91e1aa2	mozi	2026-10-20T14:21:21Z	Clarify in MODEL-SPEND that repair does not read the repair vault and when boot accepts it
+8e24664	mozi	2026-10-20T14:21:13Z	Self-test that FakeOwners refuses what a real UID drop refuses
+91438c2	mozi	2026-10-20T14:20:18Z	Do not hold the sysd lock while an action runs; stop waiting for the network at boot
+6da439a	mozi	2026-10-20T14:19:02Z	Scope BANKAI invariants I-1, I-5, I-10 and I-11 to what the code enforces
+9c4ebc4	mozi	2026-10-20T14:14:42Z	Treat an unreadable process entry as possibly running when judging a package lock
+bf8cbaf	mozi	2026-10-20T14:14:06Z	Test that lock takeover restore never clobbers a newer lock
+0bb1a4a	orda-aska	2026-10-20T14:12:58Z	Merge pull request #132 from aska-digital/fix/widgets-smoke-flake
+a05015d	mozi	2026-10-20T13:37:39Z	Make the widget smoke test wait on the real condition
+f1f00c9	orda-aska	2026-10-20T11:41:26Z	Merge pull request #131 from aska-digital/fix/spend-repair-resume-after-cut
+83e1460	mozi	2026-10-20T11:01:08Z	Resume model-spend repair after a cut and test every repair rule
+a4a937e	orda-aska	2026-10-20T10:50:38Z	Merge pull request #129 from aska-digital/fix/recovery-unknown-holder-refuses
+bb2a022	orda-aska	2026-10-20T10:40:34Z	Merge pull request #116 from aska-digital/fix/pass2-build-hygiene
+84fece5	orda-aska	2026-10-20T10:40:13Z	Merge pull request #115 from aska-digital/fix/pass2-src-hygiene
+abfae9c	mozi	2026-10-20T10:29:15Z	Refuse lock takeover when the holder cannot be read
+38723a9	ahrazzle	2026-10-20T10:20:08Z	Export the script root for the memory check SSH probe
+18f87b2	ahrazzle	2026-10-14T17:58:46Z	Pass-2 build hygiene: locale, timeouts, display socket, doc drift
+efd84b6	mozi	2026-10-20T10:11:21Z	Pass the validated bash cwd to the worker once; keep egress fallback lint-clean
+c5edac8	ahrazzle	2026-10-14T17:55:45Z	Pass-2 source hygiene: error contracts, lock discipline, doc fixes
+297dbcc	ahrazzle	2026-10-20T10:15:28Z	Merge pull request #125 from aska-digital/fix/recovery-stale-pacman-lock
+50fb292	ahrazzle	2026-10-20T10:15:09Z	Merge pull request #126 from aska-digital/fix/first-boot-crash-repair
+aa56808	orda-aska	2026-10-20T10:13:23Z	Merge pull request #124 from aska-digital/fix/install-card-discloses-upgrade
+488bd21	orda-aska	2026-10-20T10:13:14Z	Merge pull request #122 from aska-digital/chore/pin-exo-5f434b1
+ed36d2e	orda-aska	2026-10-20T10:13:05Z	Merge pull request #123 from aska-digital/fix/test-linux-private-basetemp
+2a5cbda	mozi	2026-10-20T10:07:05Z	Limit root repair to unpublished state and check owners with distinct accounts
+0c1aae9	mozi	2026-10-20T09:37:07Z	Harden stale package lock takeover: verifiable holder, exact process match, rename-and-verify
+87cd37c	mozi	2026-10-20T09:12:11Z	Resume first-boot provisioning cut off before publication and add root repair commands
+84ab06e	mozi	2026-10-20T08:50:44Z	Give the Linux test harness private temp directories and always run the sandbox pass
+c23c7d6	mozi	2026-10-20T08:47:04Z	Take over a stale package lock left by a killed recovery run
+18da13f	mozi	2026-10-20T08:46:40Z	Disclose the full system upgrade on every package install description
+6c0e50d	mozi	2026-10-20T08:35:20Z	Docs: core heartbeat and Unix peer authentication are in the pin
+c9ebfed	mozi	2026-10-20T08:35:20Z	Check the surface joins as a principal client through the core transport
+219cd29	mozi	2026-10-20T08:35:20Z	Move the Exo pin to 5f434b1

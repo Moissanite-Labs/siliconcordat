@@ -1,0 +1,977 @@
+4fd676e	ahrazzle	2026-10-31T05:31:35Z	docs: prevent restoring old history in CLI fork
+848100f	orda-aska	2026-10-29T09:09:30Z	Merge pull request #862 from aska-digital/fix/gate-pipeline-prefix-853
+dfb8cdc	abu-aska	2026-10-29T08:25:22Z	Merge pull request #872 from aska-digital/claude/sleepy-cray-pdshsj
+04354a5	shahid arifuddin	2026-10-29T06:21:56Z	Merge main e86af96c into fix/gate-pipeline-prefix-853
+0839a59	shahid arifuddin	2026-10-29T06:18:51Z	Tests: the #853 file collects on its own; docs: count and the case-pattern position (#862 review)
+95b3bf6	orda-aska	2026-10-29T06:11:04Z	Merge pull request #839 from aska-digital/fix/gate-store-lift-own-text-547
+726dab9	claude	2026-10-29T05:40:04Z	Web guidance reads a failed call's attempts, the router's refusals and httpx timeouts (#855)
+b756900	abu-aska	2026-10-29T05:27:39Z	Merge pull request #848 from aska-digital/fix/spend-limit-transparency
+59457c2	orda-aska	2026-10-29T05:27:08Z	Merge pull request #866 from aska-digital/claude/sleepy-cray-pdshsj
+6216d5f	claude	2026-10-29T05:15:45Z	Test recover()'s half of the #859 fix; say which cd names the second pass (#866 review)
+c25f4a9	razi-exo	2026-10-29T04:36:36Z	Say a floor, not free work, and flag the call the same way in log and JSON (#848 review)
+f1687dd	razi-exo	2026-10-29T04:28:31Z	Flag a spend-limit fallback in trace too, and refresh the checked-in schema (#848 review)
+2f8f757	orda-aska	2026-10-29T04:25:35Z	Merge pull request #863 from aska-digital/fix/desktop-55-web-client
+152c36c	razi-exo	2026-10-29T04:25:17Z	Merge origin/main into fix/spend-limit-transparency
+dc10bdf	shahid arifuddin	2026-10-29T04:07:38Z	Gate: keep _classify_reading's docstring end where gate_diff's tests patch it (#853)
+46c59a1	shahid arifuddin	2026-10-29T03:50:52Z	Merge main 75d72a7f (#858/#857 condition cd, #863 and the rest) into #853
+fd85b1e	shahid arifuddin	2026-10-29T03:43:59Z	Merge main 75d72a7f (#858/#857 condition cd, #863 and the rest) into #547
+ee94006	claude	2026-10-29T03:30:15Z	Docs: say which cd names a loop's second-pass folder (#858 review nits)
+012b82c	claude	2026-10-29T00:52:35Z	Web chat: an older session-list answer no longer replaces a newer one (#859)
+0ef042e	orda-aska	2026-10-29T03:29:22Z	Merge pull request #858 from aska-digital/claude/sleepy-cray-pdshsj
+c37edf6	claude	2026-10-29T02:29:54Z	Gate: a body's cd keeps naming the second pass beside a condition cd (#858 review)
+2df1386	shahid arifuddin	2026-10-29T02:28:14Z	Gate: read a compound behind time or ! as bash runs it (#853)
+b1df937	claude	2026-10-27T11:11:57Z	Web Schedule: remove waits for Confirm remove (exo-desktop #55)
+c8498d6	claude	2026-10-27T11:06:05Z	Web sessions: a limit below 1 is a 400 (exo-desktop #55)
+aaefdf8	abu-aska	2026-10-29T02:26:38Z	Merge pull request #827 from aska-digital/gpt-forge/fix-short-status-overlap
+f3c3750	shahid arifuddin	2026-10-29T01:03:57Z	Test and document #547 review 5690862857: one rule, fail-closed rows, cost
+7af3617	claude	2026-10-29T00:59:40Z	Gate: a condition's descriptor cd names its folder too (#858 review)
+b3bdf31	ahrazzle	2026-10-29T00:26:31Z	Merge pull request #770 from aska-digital/fix/active-belief-reinforcement-54-20261028
+751c234	shahid arifuddin	2026-10-29T00:14:30Z	Merge main a1dd4fec (#845, #840, #767, #769, #771, #775, #854) into fix/gate-store-lift-own-text-547
+217774a	shahid arifuddin	2026-10-29T00:13:20Z	Merge main 55f487d6 (#798, #811, #817, #818, #797, #822, #779, #806, #546, #835, #838, #846) into fix/gate-store-lift-own-text-547
+d76bf70	claude	2026-10-28T23:25:00Z	Gate: a while/until condition whose first command is the cd into the store is read again (#857)
+ff8fcfa	orda-aska	2026-10-28T23:28:40Z	Merge pull request #854 from aska-digital/claude/sleepy-cray-pdshsj
+b02dfc9	abu-aska	2026-10-28T23:27:22Z	Merge pull request #775 from aska-digital/fix/gc-hook-gate-473
+6560b19	abu-aska	2026-10-28T23:27:17Z	Merge pull request #771 from aska-digital/fix/type-baseline-710
+25cfd65	abu-aska	2026-10-28T23:27:12Z	Merge pull request #769 from aska-digital/fix/bus-encrypted-ingress-53-20261028
+c6032e9	abu-aska	2026-10-28T23:27:06Z	Merge pull request #767 from aska-digital/fix/peer-presence-shapes-638
+66dbb71	claude	2026-10-28T23:06:01Z	Root suite: put plugins/exo-gate on the path for the #479 test file
+69f9b8a	orda-aska	2026-10-28T23:03:43Z	Merge pull request #840 from aska-digital/claude/sleepy-cray-pdshsj
+eba8150	razi-exo	2026-10-28T23:00:22Z	Merge pull request #845 from aska-digital/fix/providers-models-status-503
+c2ae489	claude	2026-10-28T22:59:51Z	findings backlog docs: the read takes no write lock, opening the store still does (#840 review)
+3640e85	razi-exo	2026-10-28T22:53:02Z	Merge origin/main into fix/spend-limit-transparency
+db45d6d	razi-exo	2026-10-28T22:47:59Z	Merge origin/main into fix/providers-models-status-503
+fce24aa	razi-exo	2026-10-28T22:44:32Z	Merge pull request #846 from aska-digital/fix/complete-provider-error-kind
+29d70b3	razi-exo	2026-10-28T22:43:52Z	Merge pull request #838 from aska-digital/fix/gate-loop-cd-store-479
+f22cabd	razi-exo	2026-10-28T22:22:56Z	Merge pull request #835 from aska-digital/port/desktop-70-72
+db9dacf	orda-aska	2026-10-28T22:05:20Z	Merge pull request #546 from aska-digital/fix/gate-quoted-prefix-assign-471
+a7b389b	shahid arifuddin	2026-10-28T21:51:28Z	consolidate: type the model JSON decoder as Any (#835 review)
+24a7b11	orda-aska	2026-10-28T21:45:42Z	Merge pull request #806 from aska-digital/steward/repeat-feedback-acceptance-20261028
+bb76a28	orda-aska	2026-10-28T21:38:07Z	Merge pull request #779 from aska-digital/steward/optimization-baseline-20261028
+586c773	orda-aska	2026-10-28T21:26:33Z	Merge pull request #822 from aska-digital/test/layout-spatial-acceptance-499
+7026f44	razi-exo	2026-10-28T21:20:38Z	A spend limit says so, and the money figure says it is a floor
+e30e5e1	ahrazzle	2026-10-28T21:04:32Z	Merge remote-tracking branch 'origin/main' into HEAD
+8f10a5d	ahrazzle	2026-10-28T21:04:25Z	Keep mobile transcript and command menu readable
+a338513	razi-exo	2026-10-28T20:53:04Z	The page's key advice follows the error, not the fact of an error
+34f6091	shahid arifuddin	2026-10-28T20:51:55Z	Tests: answer review 5689293944 on the #479 loop rows
+cd4cdd8	shahid arifuddin	2026-10-28T20:48:35Z	Test #547: the whole-line answer is not kept across lines or calls
+0146dd4	claude	2026-10-28T20:32:14Z	findings backlog test: assert the behavior, not a time bound (#840 review)
+c2381b4	razi-exo	2026-10-28T20:29:06Z	The model list says why it failed, and offers a retry only where one helps
+533c50d	claude	2026-10-28T19:34:05Z	findings backlog: read one snapshot without the write lock (#797 follow-ups)
+7b419b1	orda-aska	2026-10-28T19:31:00Z	Merge pull request #797 from aska-digital/steward/findings-backlog-20261028
+773d2be	ahrazzle	2026-10-28T19:10:35Z	Merge main into short chat status fix
+3f595b0	ahrazzle	2026-10-28T17:30:53Z	Merge pull request #818 from aska-digital/test/symlink-fallback-acceptance-564
+ec6d859	ahrazzle	2026-10-28T17:30:36Z	Merge pull request #817 from aska-digital/test/gateway-undo-acceptance-537
+6c994d5	abu-aska	2026-10-28T17:29:31Z	Merge pull request #811 from aska-digital/fix/fork-copy-position-index-450
+d40fabb	abu-aska	2026-10-28T17:29:20Z	Merge pull request #798 from aska-digital/gpt-forge/gate-acceptance-comparator-20261028
+d28f896	shahid arifuddin	2026-10-28T16:59:19Z	Merge main 0d077c8d into fix/gate-quoted-prefix-assign-471
+78088b7	shahid arifuddin	2026-10-28T16:58:49Z	Gate: a quoted prefix assignment hides no env -S text in any spelling (#471, after main f28934a3)
+dcc2770	shahid arifuddin	2026-10-28T16:51:16Z	Gate: a store line lifted by its tail keeps its own text (#547)
+6594f26	shahid arifuddin	2026-10-28T16:38:42Z	Gate: read a loop body that enters the store on its next pass (#479)
+cdd2402	ahrazzle	2026-10-28T16:38:14Z	Merge pull request #837 from aska-digital/test/bypass-folder-spellings-836
+297c634	ahrazzle	2026-10-28T16:05:37Z	Merge pull request #825 from aska-digital/ci/gate-preflight-423
+b104786	ahrazzle	2026-10-28T16:05:33Z	Merge pull request #793 from aska-digital/gpt-forge/gate-acceptance-posting-20261028
+75ab711	claude	2026-10-28T16:01:01Z	exo-gate: pin the other folder-argument spellings in bypass (#836 review)
+c93d888	ahrazzle	2026-10-28T15:54:06Z	Merge pull request #836 from aska-digital/docs/gate-bypass-secret-folder-703
+09473a9	ahrazzle	2026-10-28T12:03:42Z	Assert short chat column scrolls
+362abc3	abu-aska	2026-10-28T11:30:07Z	Merge pull request #789 from aska-digital/gpt-forge/gate-acceptance-parser-20261028
+b8e0f5e	abu-aska	2026-10-28T11:29:57Z	Merge pull request #790 from aska-digital/gpt-forge/gate-acceptance-store-20261028
+f86c13e	shahid arifuddin	2026-10-28T10:14:46Z	consolidate: read the first JSON object past brackets in prose (#835 review)
+b1fa6b3	shahid arifuddin	2026-10-28T09:21:52Z	docs: D-040 amendment and map rows for the exo-desktop #70 and #72 ports
+bb25788	shahid arifuddin	2026-10-28T09:17:54Z	docs: CHANGELOG lines for the exo-desktop #70 and #72 ports
+24055c0	sparky-118	2026-10-27T17:14:48Z	fix(learn): decode the first JSON value instead of the greedy brace match
+827893e	sparky-118	2026-10-27T20:37:37Z	fix(bus): empty-log default verify is ok with an empty marker
+801aa85	sparky-118	2026-10-27T17:06:34Z	docs(peers): empty verify ranges answer ok false
+09bbc9d	sparky-118	2026-10-27T12:06:26Z	fix(bus): Store.verify reports empty and inverted ranges as not ok
+9dc4db2	claude	2026-10-28T09:09:42Z	exo-gate: say a shell call in an ordinary folder decides as before (#703 follow-up)
+99b45c4	claude	2026-10-28T04:35:58Z	exo-gate: say which category a secret folder call keeps (#703 follow-up)
+b88f58a	claude	2026-10-28T03:18:51Z	exo-gate: pin that a secret folder argument asks in bypass (#703 follow-up)
+a4f831c	shahid arifuddin	2026-10-28T07:51:58Z	Merge commit 'f28934a3' into fix/gate-quoted-prefix-assign-471
+4989e21	ahrazzle	2026-10-28T07:19:39Z	Integrate current main and isolate short-window regression
+8d80c78	ahrazzle	2026-10-28T06:31:52Z	ci: run gate plugin and base differential preflight
+01748a9	ahrazzle	2026-10-28T06:29:37Z	Guard documented dd target and multistore contracts for issue568
+8085b07	ahrazzle	2026-10-28T06:23:22Z	Add mixed internal-public compound acceptance for issue437
+f5d0d54	ahrazzle	2026-10-28T06:22:28Z	test: validate layout relative to its conversation column
+c3065e7	ahrazzle	2026-10-28T06:19:53Z	test: capture symlink snapshot fallback side effects
+8648b72	ahrazzle	2026-10-28T06:19:13Z	test: capture gateway undo pin reconciliation gap
+747b198	ahrazzle	2026-10-28T06:16:30Z	Merge pull request #674 from aska-digital/fix/port-desktop-16-17
+6c2bea1	ahrazzle	2026-10-28T06:12:58Z	Index original positions of forked context copies
+64c9add	ahrazzle	2026-10-28T06:11:24Z	Keep short chat layouts readable when status grows
+6dd6e00	ahrazzle	2026-10-28T06:08:47Z	Merge main and preserve security-port documentation
+e6a30f1	ahrazzle	2026-10-28T06:01:16Z	Merge pull request #801 from aska-digital/feat/operator-workspace-design-20261028
+c3a72ea	ahrazzle	2026-10-28T05:55:37Z	test(trace): pin missing model-visible progress feedback
+ea5937e	razi-exo	2026-10-28T05:54:12Z	Reconcile workspace documentation with merged shell status fix
+6dd1564	ahrazzle	2026-10-28T05:52:13Z	Merge pull request #794 from aska-digital/fix/bash-exit-errors-20261028
+2d2ff25	ahrazzle	2026-10-28T05:51:13Z	Merge pull request #781 from aska-digital/fix/status-strip-clipping-20261028
+a32f849	razi-exo	2026-10-28T05:50:50Z	Refresh workspace design onto current main
+0a801c8	razi-exo	2026-10-28T05:50:39Z	Keep newer reading intent ahead of delayed scroll callbacks
+6bbfc4c	ahrazzle	2026-10-28T05:47:48Z	Merge pull request #799 from aska-digital/fix/sudo-stdin-root-test-20261028
+47ce504	ahrazzle	2026-10-28T05:46:29Z	Make the sudo stdin hook test runnable from the root suite
+b9d3a60	ahrazzle	2026-10-28T05:45:15Z	Pin pending gate comparator and URL-work acceptance
+45e2f40	razi-exo	2026-10-28T05:44:37Z	Compose workspace design with reviewed status wrapping fix
+9a5d3f5	ahrazzle	2026-10-28T05:44:24Z	feat(findings): report backlog by age and severity
+3aa05bf	razi-exo	2026-10-28T05:44:20Z	Redesign the shared operator workspace
+a13e031	razi-exo	2026-10-28T05:40:29Z	Report nonzero foreground shell exits as tool errors
+0ee4674	ahrazzle	2026-10-28T05:39:38Z	Add pending acceptance cases for gate posting targets and text
+b8f9867	ahrazzle	2026-10-28T05:36:21Z	Pin desired store and target gate outcomes with pending acceptance cases
+a6ee7fd	ahrazzle	2026-10-28T05:34:27Z	Add executable acceptance cases for open gate parser gaps
+945e55e	abu-aska	2026-10-28T05:27:24Z	Merge pull request #718 from aska-digital/fix/gate-sudo-shell-stdin-491
+1b89958	razi-exo	2026-10-28T05:24:48Z	fix(web): keep status values and warnings readable in narrow panes
+5c1d572	ahrazzle	2026-10-28T05:21:19Z	Add synthetic optimization baselines and crash-boundary acceptance checks
+c1e791c	ahrazzle	2026-10-28T05:20:19Z	Merge pull request #707 from aska-digital/fix/gate-env-split-634
+b4e30eb	ahrazzle	2026-10-28T05:17:26Z	Read gc.recentObjectsHook as a Git shell command
+14c16e5	ahrazzle	2026-10-28T05:17:20Z	Merge remote-tracking branch 'origin/main' into HEAD
+43fa10c	ahrazzle	2026-10-28T05:17:20Z	Merge current main and preserve the env split fix record
+ee30e88	ahrazzle	2026-10-28T05:16:55Z	Merge pull request #758 from aska-digital/fix/gate-error-card-followup
+0a3a20a	ahrazzle	2026-10-28T05:16:20Z	Merge pull request #762 from aska-digital/feat/thread-drafts-20261027
+0f14544	ahrazzle	2026-10-28T05:15:21Z	Merge pull request #727 from aska-digital/fix/climb-held-out-upstream
+2387091	ahrazzle	2026-10-28T05:13:38Z	Merge reviewed conversation drafts with current main
+960ca19	ahrazzle	2026-10-28T05:13:02Z	Merge current main and preserve both fix entries
+036789e	ahrazzle	2026-10-28T05:13:00Z	Merge pull request #761 from aska-digital/feat/operator-continuity-20261027
+bf1c1d2	ahrazzle	2026-10-28T05:12:11Z	Merge pull request #726 from aska-digital/fix/engine-start-retry-upstream
+47d354d	ahrazzle	2026-10-28T05:09:54Z	Merge pull request #679 from aska-digital/fix/approval-keyboard-hint-20261027
+62482ff	razi-exo	2026-10-28T05:09:19Z	fix(types): restore the shrink-only baseline match
+b635fce	ahrazzle	2026-10-28T05:09:10Z	Merge continuity checkpoints with current main documentation
+1f95e75	ahrazzle	2026-10-28T05:08:13Z	Reinforce only active beliefs during consolidation
+9e15dcd	ahrazzle	2026-10-28T05:07:45Z	Merge pull request #760 from aska-digital/docs/operator-vessel-20261027
+6dd7194	ahrazzle	2026-10-28T05:07:33Z	Merge remote-tracking branch 'origin/main' into steward/rebase-679
+461801c	ahrazzle	2026-10-28T05:07:25Z	Merge current main into reviewed PR #707
+c852d80	ahrazzle	2026-10-28T05:07:25Z	Merge current main into reviewed PR #758
+a583308	ahrazzle	2026-10-28T05:07:24Z	Merge current main into reviewed PR #727
+5d4d76c	ahrazzle	2026-10-28T05:07:24Z	Merge current main into reviewed PR #726
+d164bdb	ahrazzle	2026-10-28T05:07:08Z	Merge pull request #759 from aska-digital/gpt-forge/fix-nohup-test-proc-guard
+f7f7c21	ahrazzle	2026-10-28T05:06:47Z	Skip unreadable encrypted bus envelopes before ingress
+06e504c	razi-exo	2026-10-28T05:06:30Z	test: wait for composer send guard after rename integration
+3d17982	ahrazzle	2026-10-28T05:05:30Z	Merge remote-tracking branch 'origin/main' into steward/rebase-679
+cdbcabc	ahrazzle	2026-10-28T05:05:28Z	Merge current main into approval keyboard guidance
+5d6e0fb	ahrazzle	2026-10-28T05:05:11Z	Merge pull request #744 from aska-digital/fix/relative-counter-recovery-741-20261028
+196f46a	razi-exo	2026-10-28T05:03:51Z	fix(peers): reject malformed presence records before discovery
+f22111e	ahrazzle	2026-10-28T05:01:44Z	Merge remote-tracking branch 'origin/main' into steward/rebase-744
+1dbba73	ahrazzle	2026-10-28T05:01:31Z	Merge current main into relative import counter recovery
+627d89e	ahrazzle	2026-10-28T05:01:29Z	Merge pull request #757 from aska-digital/gpt-forge/fix-web-json-depth
+c45700a	razi-exo	2026-10-28T05:01:21Z	test: target composer Send after rename controls were added
+d12e7d0	ahrazzle	2026-10-28T05:00:33Z	Merge pull request #747 from aska-digital/docs/canonical-workflow-20261028
+68562ab	razi-exo	2026-10-28T04:59:49Z	docs: point to steering contract at its reviewed commit
+d86ab09	razi-exo	2026-10-28T04:58:51Z	docs: record steering and working notes review branches
+7a21ee6	ahrazzle	2026-10-28T04:58:09Z	Merge current main into canonical workflow documentation
+8040a7d	razi-exo	2026-10-28T04:57:28Z	Merge current main into conversation drafts
+6b7870f	razi-exo	2026-10-28T04:57:28Z	Merge current main into operator design proposal
+d62b2c1	razi-exo	2026-10-28T04:57:27Z	Merge current main into continuity checkpoints
+81c35b3	ahrazzle	2026-10-28T04:44:23Z	Merge pull request #737 from aska-digital/feat/chat-rename-action-20261027
+e920268	ahrazzle	2026-10-28T04:44:18Z	Merge pull request #735 from aska-digital/fix/chat-route-notices-20261027
+c8047fa	ahrazzle	2026-10-28T04:44:14Z	Merge pull request #720 from aska-digital/fix/approval-content-length-55-20261027
+9436813	ahrazzle	2026-10-28T04:44:10Z	Merge pull request #639 from aska-digital/fix/peers-reply-not-receipt
+aa9c707	shahid arifuddin	2026-10-28T04:15:07Z	Docs: D-084 subsection as its own section; probe numbers with the shell secret row
+4ab6dbf	razi-exo	2026-10-28T04:14:16Z	fix: keep chat drafts and send recovery with their conversation
+816cc1b	razi-exo	2026-10-28T04:13:50Z	feat: retain a bounded record index for interrupted work
+476dda5	ahrazzle	2026-10-28T04:12:41Z	test: guard nohup process probe when procfs is unavailable
+70325e5	razi-exo	2026-10-28T04:11:16Z	docs: define agent and operator continuity acceptance gates
+af546ed	shahid arifuddin	2026-10-28T04:04:28Z	Gate: finish D-084 after #742 (no read-on-error rule left, gate_diff asks)
+5f25914	orda-aska	2026-10-28T04:00:32Z	Merge pull request #751 from aska-digital/gpt-forge/fix-approval-json-object-740-20261028
+03ba25d	ahrazzle	2026-10-28T03:50:57Z	test(command): make JSON recursion regressions portable
+6cc2604	ahrazzle	2026-10-28T03:46:16Z	fix(command): answer JSON decoder recursion errors with 400
+9325530	shahid arifuddin	2026-10-28T03:45:56Z	Merge main eb0ba7e2 into #727
+f2247ab	shahid arifuddin	2026-10-28T03:45:56Z	Merge main eb0ba7e2 into #726
+a3fc8de	ahrazzle	2026-10-28T03:11:04Z	fix(command): reject non-object approval JSON bodies
+56e7d6f	abu-aska	2026-10-28T02:26:11Z	Merge pull request #742 from aska-digital/fix/gate-read-error-fails-closed
+fd8a086	razi-exo	2026-10-28T01:25:04Z	Record one canonical implementation and reviewed desktop syncs
+26390e2	shahid arifuddin	2026-10-28T01:14:57Z	Merge commit '347746ad' into fix/climb-held-out-upstream
+cc2ed3b	shahid arifuddin	2026-10-28T01:14:53Z	Merge commit '347746ad' into fix/engine-start-retry-upstream
+98cd03a	shahid arifuddin	2026-10-28T01:14:44Z	Merge commit '347746ad' into fix/gate-env-split-634
+bcb0b0b	razi-exo	2026-10-28T00:26:09Z	Restore relative import counter fix on main
+cde810a	claude	2026-10-28T00:18:12Z	Gate: a read tool asks when its classification fails, once only
+a0ff92f	razi-exo	2026-10-28T00:07:44Z	Merge pull request #696 from aska-digital/fix/tab-permission-notice-main
+6675845	claude	2026-10-27T23:17:50Z	Config: show and get mask a key-shaped value beside a ${VAR} (#691)
+cdf548c	razi-exo	2026-10-27T23:15:50Z	feat: add visible chat rename controls
+3c02892	ahrazzle	2026-10-27T23:12:03Z	test(exo-command): strengthen malformed approval Content-Length coverage
+07d2a7f	razi-exo	2026-10-27T23:11:55Z	fix: scope chat route warnings and clear recovered calls
+ed16648	claude	2026-10-27T23:06:09Z	Merge origin/main into fix/port-desktop-16-17
+cc8f7f6	exo-razi	2026-10-27T22:57:54Z	tui: /tab note reads the core's live permission mode, add joined-window test (#669)
+ac3306c	orda-aska	2026-10-27T22:43:08Z	Merge pull request #724 from aska-digital/fix/steer-message-id-20261027
+8efc9d0	razi-exo	2026-10-27T22:42:38Z	Merge remote-tracking branch 'origin/main' into HEAD
+5392ab8	orda-aska	2026-10-27T22:40:46Z	Merge pull request #728 from aska-digital/fix/config-redact-691
+dfdcc9c	razi-exo	2026-10-27T22:22:38Z	tui: drop the unused local in restart's flag filter (ruff F841)
+a672a70	razi-exo	2026-10-27T22:16:46Z	Merge remote-tracking branch 'origin/main' into pr696
+457746e	razi-exo	2026-10-27T22:16:03Z	tui: the /tab warning names the core's permission mode, not a fresh ask (#669)
+10ee129	claude	2026-10-27T22:03:50Z	Config: mask a secret at any level of a key path (#691)
+6c1ca72	shahid arifuddin	2026-10-27T21:08:22Z	Merge main cd371aed into fix/climb-held-out-upstream
+014734b	shahid arifuddin	2026-10-27T21:08:15Z	Gate each other domain's held-out on its own in the climb
+01e423b	shahid arifuddin	2026-10-27T20:46:45Z	Merge main cd371aed into fix/engine-start-retry-upstream
+82a5e12	shahid arifuddin	2026-10-27T20:46:18Z	Test the core start retry and stop MCP servers a cut-short start left
+b16253c	abu-aska	2026-10-27T20:26:38Z	Merge pull request #613 from aska-digital/raise-headroom-structural-caps
+c77d214	abu-aska	2026-10-27T20:26:16Z	Merge pull request #725 from aska-digital/fix/dup-decision-082-20261027
+c58ce31	orda-aska	2026-10-27T09:08:29Z	fix(climb): use computed weight for candidacy and gate held-out globally (issue 13)
+95d21b8	orda-aska	2026-10-27T06:11:10Z	fix(core): recover engine start after a failed runtime start
+3a3dd21	shahid arifuddin	2026-10-27T18:46:33Z	Merge main 721828fd into fix/gate-env-split-634
+7199aac	exo-razi	2026-10-27T18:31:34Z	Renumber the duplicate D-082 to D-087 and update every citation
+0b5d42d	shahid arifuddin	2026-10-27T18:20:42Z	Gate: bypass keeps main's order for main's env -S reading (#591, verify 3 of #707)
+bfb59b1	ahrazzle	2026-10-27T18:08:59Z	fix(core): assign stable IDs before internal steers are queued
+7d5630f	ahrazzle	2026-10-27T17:40:51Z	fix(exo-command): mirror _body Content-Length validation in _approve
+486e838	exo-razi	2026-10-27T17:37:02Z	Merge main into D-083 caps branch
+d291e4a	exo-razi	2026-10-27T17:31:41Z	docs: drop the core line ceiling everywhere (D-083)
+906faeb	abu-aska	2026-10-27T17:25:02Z	Merge pull request #512 from aska-digital/feat/work-notebook
+c8fbd39	abu-aska	2026-10-27T17:24:58Z	Merge pull request #703 from aska-digital/fix/gate-bypass-camel-floor-602
+94ba510	shahid arifuddin	2026-10-27T17:23:55Z	Gate: read a sudo -s or -i shell's stdin and the words sudo runs (#491)
+18a2ce5	shahid arifuddin	2026-10-27T17:23:54Z	Gate tests: main 58503282's readings behind a quoted prefix (#471)
+76ab760	ahrazzle	2026-10-27T17:04:04Z	Merge main into D-083 caps branch
+63720f4	orda-aska	2026-10-27T16:58:23Z	Merge pull request #705 from aska-digital/fix/gate-braced-store-repeat-611
+979311a	orda-aska	2026-10-27T16:56:00Z	Merge pull request #704 from aska-digital/fix/gate-gh-store-hop-host
+95e218b	orda-aska	2026-10-27T16:54:15Z	Merge pull request #706 from aska-digital/fix/gate-glob-target-second-store-609
+ca59fd6	ahrazzle	2026-10-27T16:48:30Z	Tests: adapt two work-notebook tests to main (registry shape, unmerged instructions)
+ccf142f	ahrazzle	2026-10-27T16:47:39Z	Loop: port the workspace_extra prompt hook the work notebook needs
+12e5e49	ahrazzle	2026-10-27T16:46:14Z	Gate: work notebook attach tolerates a Loop without workspace_extra
+e5a5a75	Raz Arif	2026-10-23T17:35:03Z	Record complete notebook gate comparison evidence (#506)
+5935938	Raz Arif	2026-10-23T17:30:33Z	Keep unsupported notebook arguments under generic gate checks (#506)
+ca2dc50	Raz Arif	2026-10-23T17:21:40Z	Preserve generic gate checks for malformed notebook calls (#506)
+2c14a58	Raz Arif	2026-10-23T17:00:01Z	Add optional session working notes with revision checks (#506)
+2defef5	ahrazzle	2026-10-27T16:36:05Z	Document the web approval keyboard path
+38643e8	shahid arifuddin	2026-10-27T16:35:05Z	Gate: main's env -S reading is taken whenever a split reading is (#707 verify)
+3ebc43f	exo-razi	2026-10-27T16:16:15Z	D-083: cite head-run validation numbers (1,315 passed, 1 skipped)
+05955c8	shahid arifuddin	2026-10-27T14:24:03Z	Merge commit '58503282' into fix/gate-sudo-shell-stdin-491
+b36ce88	shahid arifuddin	2026-10-27T14:14:54Z	Merge commit '58503282' into fix/gate-quoted-prefix-assign-471
+2e1a2f0	shahid arifuddin	2026-10-27T14:07:42Z	Merge commit '58503282' into fix/gate-env-split-634
+75ed52d	shahid arifuddin	2026-10-27T14:07:09Z	Gate: env -S text keeps the hop's host and is split as env splits it (#591)
+0fa1498	shahid arifuddin	2026-10-27T13:16:22Z	Merge commit '58503282' into fix/gate-bypass-camel-floor-602
+3896a33	shahid arifuddin	2026-10-27T13:13:47Z	Gate: a redirect or folder store check stops at its first hit; case-variant repeats keep their part
+5cb62eb	shahid arifuddin	2026-10-27T13:13:47Z	Gate: a hop keeps its host on a gh download or clone into the store
+90f883f	shahid arifuddin	2026-10-27T13:13:47Z	Gate: a target entry matches every store a credentials line names, and a file below a globbed secret folder asks
+a22f413	shahid arifuddin	2026-10-27T13:13:47Z	Gate: measure the #602 hook follow-up on main e0968a2b, guard readFile on the seat file, word the hump-name ask
+216cc58	claude	2026-10-27T12:16:05Z	Wire: the docs say a caller pins the key to verify (exo-desktop #17)
+43d5699	claude	2026-10-27T12:09:59Z	Wire: the no-pinned-key test signs with a real key (exo-desktop #17)
+cec3cfa	claude	2026-10-27T11:39:27Z	Config: show, get and config.get mask every value config.set refuses (#691)
+797008e	claude	2026-10-27T11:16:38Z	Config: exo config get masks a secret reached by a dotted key (#691)
+13c137f	exo-razi	2026-10-27T11:14:46Z	Merge remote-tracking branch 'origin/main' into w613
+f3e8c5c	exo-razi	2026-10-27T11:11:43Z	tui: warn when /tab opens a window without a permission flag (#669)
+e7a3a4e	claude	2026-10-27T10:59:37Z	Merge origin/main into fix/port-desktop-16-17
+5d76c1a	shahid arifuddin	2026-10-27T10:54:09Z	Merge commit 'e0968a2b' into fix/gate-gh-store-hop-host
+5bdd931	shahid arifuddin	2026-10-27T10:49:34Z	Merge commit 'e0968a2b' into fix/gate-braced-store-repeat-611
+8209099	shahid arifuddin	2026-10-27T10:44:48Z	Peers docs: leave the #637 listener gap to #658 (#639 review)
+d79701f	shahid arifuddin	2026-10-27T10:20:01Z	Merge commit 'e0968a2b' into fix/gate-bypass-camel-floor-602
+6b4f139	ahrazzle	2026-10-27T10:04:34Z	Merge pull request #671 from aska-digital/fix/ruff-f541-gate-dollar-paren-tests-662
+baee9e7	shahid arifuddin	2026-10-27T09:50:44Z	Gate: a repeated braced store path keeps its own command's store part
+6e9a6b7	shahid arifuddin	2026-10-27T09:50:42Z	Gate: bypass and the high-risk ask read a camelCase call's floor (#602)
+0ad145e	shahid arifuddin	2026-10-27T09:50:39Z	Gate: read sudo values and operands that may come to -s (#491)
+069f4d3	shahid arifuddin	2026-10-27T09:50:37Z	Gate tests: pin main's readings behind a quoted prefix (#471)
+256c2e5	shahid arifuddin	2026-10-27T09:50:36Z	Gate: RemoteCommand keeps each raised part's private reading (#461)
+c563031	ahrazzle	2026-10-27T09:36:59Z	Make approval keyboard focus instructions visible
+64f0547	claude	2026-10-27T09:24:55Z	Tests and changelog for the two fixes ported from exo-desktop
+9c0f4c9	orda-aska	2026-10-27T06:39:30Z	fix(wire): `packets.verify` must not trust the embedded public key (aska-digital/exo-desktop#17)
+f04b415	orda-aska	2026-10-27T06:39:26Z	fix(config): redact secrets in `exo config show` and `get` (aska-digital/exo-desktop#16)
+7d7de70	abu-aska	2026-10-27T08:27:52Z	Changelog: Ruff F541 fix in dollar-paren gate tests (#662)
+950039e	abu-aska	2026-10-27T08:27:17Z	Fix Ruff F541 on two f-strings in dollar-paren gate tests (#662)
+af425b7	abu-aska	2026-10-27T08:24:17Z	Merge pull request #663 from aska-digital/fix/web-composer-tab-661
+9f4daf6	ahrazzle	2026-10-27T05:19:56Z	Web composer: name /tab among the client commands (#661)
+594c76d	orda-aska	2026-10-27T05:08:24Z	Merge pull request #654 from aska-digital/fix/agent-log-search-private-descendants-632
+fa182e3	mozi	2026-10-27T04:42:51Z	Agent log: shared search left out only a private thread's own rows (#632)
+26ee8dd	orda-aska	2026-10-27T05:07:51Z	Merge pull request #657 from aska-digital/fix/command-web-tests-fixture-617
+850ca59	agent	2026-10-27T04:45:30Z	Fix command web tests fixture: permissions module (#617)
+e4e47a4	orda-aska	2026-10-27T05:07:09Z	Merge pull request #659 from aska-digital/fix/gate-search-replace-store-write-651
+40c4f75	mozi	2026-10-27T04:50:30Z	Gate: a read-named tool that replaces text writes the store file it names (#651)
+4185306	orda-aska	2026-10-27T05:05:42Z	Merge pull request #655 from aska-digital/fix/context-carry-pins-fresh-645
+865d171	ahrazzle	2026-10-27T05:05:15Z	Context: _carry_pins reads the parent's pins fresh from disk (#645)
+76f0b3f	orda-aska	2026-10-27T04:58:25Z	Merge pull request #652 from aska-digital/fix/gate-dollar-paren-cmdsub-553
+ef4d642	orda-aska	2026-10-27T04:53:24Z	Merge pull request #635 from aska-digital/fix/gate-case-insensitive-store-601
+0b42eb7	exo-razi	2026-10-27T04:41:05Z	test: count every import form and only the reader's own names in the step 4 scorecard
+0f00e05	mozi	2026-10-27T03:22:45Z	Gate: an ssh line keeps its host beside a case-variant store path (#601)
+cc25797	mozi	2026-10-27T00:53:31Z	Gate: a store path in different letter case asks where the file system lands it on the store (#601)
+e6189ae	mozi	2026-10-27T03:10:43Z	Gate: a $((", bash reads as a command substitution, is read as one (#553)
+53a1dbe	claude	2026-10-27T04:25:29Z	Merge commit 'fa5dfcd8' into fix/gate-quoted-prefix-assign-471
+21bd87e	mozi	2026-10-27T04:07:33Z	Merge remote-tracking branch 'origin/main' into w613
+9fa732a	mozi	2026-10-27T04:07:33Z	docs(docs-map): drop the duplicate D-077 row, keep the one that names D-083
+cc96b6a	mozi	2026-10-27T04:05:04Z	docs(decisions): record the D-083 validation on the merged tree
+5fe33f9	shahid arifuddin	2026-10-27T03:56:54Z	Merge commit 'fa5dfcd8' into fix/gate-gh-store-hop-host
+5576c32	orda-aska	2026-10-27T03:51:56Z	Merge pull request #649 from aska-digital/followup/562-review-items
+d5d05b8	mozi	2026-10-27T03:51:30Z	Merge remote-tracking branch 'origin/main' into w613
+3fb4112	exo-razi	2026-10-27T03:51:22Z	test(budget): count every import form in the step 4 scorecard
+24f8863	orda-aska	2026-10-27T03:47:16Z	Merge pull request #641 from aska-digital/fix/gate-param-prompt-579
+0fda4db	shahid arifuddin	2026-10-27T03:45:18Z	Follow-up to #562: the three review items that did not land
+9400f9b	orda-aska	2026-10-27T03:34:11Z	Merge pull request #642 from aska-digital/fix/context-undo-rebuild-580
+7eba82f	mozi	2026-10-27T02:27:20Z	Context: a pending undo waits for the session's next turn, in any engine (#580)
+9b99015	mozi	2026-10-27T03:13:12Z	Gate: a value the gate cannot read makes the prompt parameter unknown (#579)
+00b31d8	mozi	2026-10-27T01:59:46Z	Gate: a prompt-string transformation is code the gate cannot see (#579)
+ef18058	orda-aska	2026-10-27T03:24:59Z	Merge pull request #620 from aska-digital/fix/gate-allow-rule-matrix-deny-516
+a742c20	exo-razi	2026-10-27T03:15:35Z	Merge origin/main into raise-headroom-structural-caps
+dd4dcb6	orda-aska	2026-10-27T03:07:19Z	Merge pull request #628 from aska-digital/fix/handoff-raw-lines-resume-540
+90a2e0e	mozi	2026-10-27T03:07:07Z	Gate: the folder part's stand-in says cd once (#516)
+d5ba333	mozi	2026-10-26T22:06:33Z	Gate: an allow rule on the line's text does not lift the folder part's matrix deny (#516)
+f312c10	orda-aska	2026-10-27T03:06:11Z	Merge pull request #647 from aska-digital/fix/gate-config-codeloads-612
+226b201	mozi	2026-10-27T03:02:33Z	Handoff: the demotion takes the heading spellings a markdown reader takes (#540)
+b195056	mozi	2026-10-26T22:42:26Z	Handoff: an older file's raw lines stop at the header when resume builds the system message (#540)
+d9b110e	orda-aska	2026-10-27T02:59:27Z	Merge pull request #633 from aska-digital/fix/gate-legacy-arithmetic-588
+fb6610f	orda-aska	2026-10-27T02:54:56Z	Merge pull request #646 from aska-digital/fix/context-compress-undo-581
+e9cb124	mozi	2026-10-27T00:24:34Z	Gate: bash's legacy arithmetic $[..] is read as $((..)) (#588)
+9c833d9	orda-aska	2026-10-27T02:52:58Z	Merge pull request #629 from aska-digital/fix/hook-turn-author-598
+41dc365	mozi	2026-10-26T23:02:47Z	Hooks: a hook can read who started the turn (#598)
+fae63ce	orda-aska	2026-10-27T02:52:14Z	Merge pull request #631 from aska-digital/docs/fix-sweep-used-decisions-600
+09768e3	mozi	2026-10-27T02:52:04Z	Docs test: the sweep's free list moved with #235; the fixture follows it
+75e8080	abu-aska	2026-10-27T02:48:57Z	Gate: a venv or Hermes home recorded in config.json is a code path too (#612)
+086eeab	mozi	2026-10-26T23:13:19Z	Docs test: a number FIX-SWEEP lists as free must not be a used decision (#600)
+9b85faa	mozi	2026-10-27T02:49:22Z	Context: a compress that folds the undo window's first row lets the undo reach back (#581)
+b38e80c	orda-aska	2026-10-27T02:45:24Z	Merge pull request #644 from aska-digital/test/two-redirect-targets-614
+b374192	orda-aska	2026-10-27T02:43:16Z	Merge pull request #643 from aska-digital/fix/gate-dollar-backslash-nl-585
+e0aff86	mozi	2026-10-27T02:37:12Z	Tests: a redirect line's second store target is a part too (#614)
+10bc460	orda-aska	2026-10-27T02:34:01Z	Merge pull request #621 from aska-digital/feat/project-conversation-cwd
+7cbbfb3	mozi	2026-10-27T02:32:59Z	Gate: a backslash-newline after a $ is what bash reads next (#585)
+b672642	mozi	2026-10-27T02:32:50Z	Explain new project windows in the Exo orientation
+b47e0b8	orda-aska	2026-10-27T02:28:15Z	Merge pull request #640 from aska-digital/fix/gate-d038-policy-merge-586
+ad9c333	orda-aska	2026-10-27T02:26:48Z	Merge pull request #636 from aska-digital/fix/context-rebind-pin-592
+fe729ad	shahid arifuddin	2026-10-27T01:49:18Z	Merge commit '15e60ddb' into fix/gate-quoted-prefix-assign-471
+2576315	shahid arifuddin	2026-10-27T01:49:07Z	Merge commit '15e60ddb' into fix/gate-gh-store-hop-host
+bdba6a5	shahid arifuddin	2026-10-27T01:46:37Z	Merge commit '15e60ddb' into fix/gate-sudo-shell-stdin-491
+01ca500	orda-aska	2026-10-27T01:37:49Z	Merge pull request #634 from aska-digital/fix/gate-env-s-quoted-assign-591
+f3a8951	mozi	2026-10-27T01:36:12Z	Gate: two valid policy files merge as one stricter reading (#586)
+d0f619f	shahid arifuddin	2026-10-27T01:25:02Z	Gate: read a sudo option word the gate cannot read as -s (#491)
+1f2faab	shahid arifuddin	2026-10-27T01:25:01Z	Gate tests: pin hidden store names behind a quoted prefix (#471)
+8161e4a	shahid arifuddin	2026-10-27T01:25:00Z	Gate: a hop keeps its host on a gh download or clone into the store
+cff08a9	shahid arifuddin	2026-10-27T01:23:42Z	Merge commit '15e60ddb' into fix/peers-reply-not-receipt
+109a698	shahid arifuddin	2026-10-27T01:23:42Z	Peers: a signed first reply is not a receipt (#603 follow-up)
+b24f11f	mozi	2026-10-27T01:13:39Z	Context: a rebind leaves alone a pin the child dropped (#592)
+277f54d	ahrazzle	2026-10-27T00:53:42Z	Merge pull request #235 from aska-digital/docs/canary-operating-decisions
+9df0a4a	ahrazzle	2026-10-27T00:53:26Z	Merge pull request #333 from aska-digital/fix/gate-heredoc-delimiter-328
+c7086cf	mozi	2026-10-27T00:44:28Z	Gate: a leading assignment quoted whole in env -S text no longer hides the command (#591)
+8ca4d1f	mozi	2026-10-26T23:54:24Z	Fix project window launch and client directory boundaries
+e5b0d79	abu-aska	2026-10-26T23:25:15Z	Merge pull request #627 from aska-digital/fix/gate-policy-pattern-observe-466
+6c2084b	orda-aska	2026-10-26T22:30:57Z	Merge pull request #607 from aska-digital/fix/gate-config-json-glob
+50c5ad7	mozi	2026-10-26T22:30:25Z	Gate: a policy pattern that does not compile is refused when the policy loads (#466)
+7575b8d	mozi	2026-10-26T22:22:11Z	Add project working directories for terminal conversations
+4a7c4d2	shahid arifuddin	2026-10-26T21:52:08Z	Merge commit '6054da56' into fix/gate-config-json-glob
+5df50c2	orda-aska	2026-10-26T21:47:50Z	Merge pull request #610 from aska-digital/fix/gate-ssh-host-target-493
+ed603d8	mozi	2026-10-26T21:47:49Z	Mark canary read-back scope as undecided
+9d758d1	shahid arifuddin	2026-10-26T21:44:56Z	Merge commit '344d8bdb' into fix/gate-config-json-glob
+eeb5d61	orda-aska	2026-10-26T21:40:27Z	Merge pull request #602 from aska-digital/fix/gate-camelcase-tools-515
+051defc	mozi	2026-10-26T21:38:46Z	Merge current main store target protections into SSH host fix
+2d3e444	exo-razi	2026-10-26T21:35:16Z	D-082: price core coupling, raise headroom to 2,000
+c14a538	mozi	2026-10-26T21:34:42Z	Merge commit '179b15e7209ad436fcfe3b28d8695943f108e7d0' into fix333-latest
+ab7c81d	mozi	2026-10-26T21:32:31Z	Merge current main security checks into camelCase gate fix
+032f9dc	mozi	2026-10-26T21:31:11Z	fix(gate): integrate main and close heredoc delimiter review gaps
+5fc3cf8	mozi	2026-10-26T21:30:57Z	Preserve unsplit tool classifications as camelCase policy floors
+24744f1	mozi	2026-10-26T21:29:10Z	Correct canary decision history and number inventory
+d69b9a9	orda-aska	2026-10-26T21:28:53Z	Merge pull request #611 from aska-digital/fix/gate-multi-store-target-514
+a644638	aska-minar	2026-10-26T20:47:37Z	Gate: an ssh line keeps its host as a target beside the remote command's path (#493)
+cd1c024	mozi	2026-10-26T21:22:05Z	Merge remote-tracking branch 'origin/main' into raise-headroom-structural-caps
+93d0883	orda-aska	2026-10-26T21:21:21Z	Merge pull request #604 from aska-digital/fix/gate-protected-codeloads-459
+b2ff06c	mozi	2026-10-26T17:59:15Z	Gate: writes into the folders Exo loads code from ask (#459)
+a07df63	mozi	2026-10-26T21:17:57Z	Gate: every store path a write names is a target, not only the first (#514)
+7bfa636	shahid arifuddin	2026-10-26T20:54:14Z	Merge commit '5a5a535d' into fix/gate-config-json-glob
+0f8a8c2	orda-aska	2026-10-26T20:44:23Z	Merge pull request #609 from aska-digital/fix/gate-glob-store-folder-594
+153aaae	abu-aska	2026-10-26T20:34:31Z	Gate: a glob in a secret store's folder asks (#594) — changelog
+6279776	abu-aska	2026-10-26T20:34:29Z	Gate: a glob in a secret store's folder asks (#594) — tests
+c5f85fd	abu-aska	2026-10-26T20:34:27Z	Gate: a glob in a secret store's folder asks (#594)
+2964114	orda-aska	2026-10-26T20:19:17Z	Merge pull request #608 from aska-digital/fix/gate-filetool-store-keys-494
+1448463	mozi	2026-10-26T19:43:33Z	Gate: a file tool's store path under any key asks, and a move of a store ancestor does (#494)
+2ae39b3	shahid arifuddin	2026-10-26T19:14:32Z	Merge commit 'dcab371a' into fix/gate-quoted-prefix-assign-471
+91679d0	shahid arifuddin	2026-10-26T19:14:26Z	Merge commit 'dcab371a' into fix/gate-sudo-shell-stdin-491
+1f91282	shahid arifuddin	2026-10-26T18:44:04Z	Gate: count config.json in the store glob only while it counts (#587)
+4bb7e02	shahid arifuddin	2026-10-26T14:11:22Z	Gate: answer the #587 review on the config.json store path (D-074)
+a810988	orda-aska	2026-10-26T18:59:46Z	Merge pull request #603 from aska-digital/fix/peers-forged-presence-523
+d686437	orda-aska	2026-10-26T18:55:50Z	Merge pull request #606 from aska-digital/fix/gate-gh-downloads-461
+0c8d328	mozi	2026-10-26T18:53:35Z	Peers: a presence entry signs itself with the peer's key (#523)
+af0792b	orda-aska	2026-10-26T18:50:22Z	Merge pull request #605 from aska-digital/fix/gate-stray-classify-call
+b8fcb8e	shahid arifuddin	2026-10-26T18:46:15Z	Gate: read the stdin a sudo -s or sudo -i shell runs (#491)
+917e758	mozi	2026-10-26T18:40:56Z	Docs: name the camelCase pass-through categories the #515 record kept short
+d15c3c4	mozi	2026-10-26T18:38:03Z	Gate: drop a stray shadow of _classify_call left by the #589 merge
+6f27498	mozi	2026-10-26T18:35:21Z	Gate: a gh download or clone into the store asks (#461)
+44f0db3	mozi	2026-10-26T16:25:14Z	Gate: a camelCase tool name reads its words beside the name's one word (#515)
+bc14215	mozi	2026-10-26T16:14:08Z	Peers: verify a presence entry's key at send time and sign the first deliver reply (#523)
+d58c3cb	orda-aska	2026-10-26T17:08:34Z	Merge pull request #589 from aska-digital/fix/gate-dollar-line-continuation-584
+dce189f	mozi	2026-10-26T16:43:40Z	Merge remote-tracking branch 'origin/main' into rev-589
+5254196	orda-aska	2026-10-26T16:27:33Z	Merge pull request #558 from aska-digital/feat/bounded-search-worker
+c141eeb	mozi	2026-10-26T16:27:05Z	Merge remote-tracking branch 'origin/main' into wt-558
+ac5226f	orda-aska	2026-10-26T16:05:04Z	Merge pull request #587 from aska-digital/fix/gate-config-json
+2137e44	orda-aska	2026-10-26T15:55:51Z	Merge pull request #597 from aska-digital/test/store-name-forms-tmp-hermetic-596
+a378bbb	mozi	2026-10-26T15:52:25Z	Merge remote-tracking branch 'origin/main' into rev-589
+2b72606	mozi	2026-10-26T15:52:21Z	Merge remote-tracking branch 'origin/main' into rev-587
+dc73394	orda-aska	2026-10-26T15:49:51Z	Merge pull request #556 from aska-digital/feat/schedule-run-guards
+fd37246	orda-aska	2026-10-26T15:48:43Z	Merge pull request #569 from aska-digital/fix/escalate-policy-error-557
+cf4cb08	ahrazzle	2026-10-26T15:38:20Z	Rebase onto main 945d558f94e6 (from head e236698054ca); conflicts resolved by keeping both sides' entries/rows.
+60c553e	ahrazzle	2026-10-26T15:37:36Z	Rebase onto main 945d558f94e6 (from head 3dc87cc243eb); conflicts resolved by keeping both sides' entries/rows.
+ccdf099	ahrazzle	2026-10-26T15:36:52Z	Rebase onto main 945d558f94e6 (from head 515444b2ab76); conflicts resolved by keeping both sides' entries/rows.
+c6fc9b8	amp-vela	2026-10-26T15:02:22Z	Tests: spell the store_name_forms tmp rows from the fixture (#596)
+f2df773	orda-aska	2026-10-26T14:52:44Z	Merge pull request #595 from aska-digital/docs/nits-583-593
+2edd132	orda-aska	2026-10-26T14:39:39Z	Merge pull request #582 from aska-digital/feat/permissions-bypass-refresh
+cc7b308	claude	2026-10-26T14:35:31Z	Docs: the review nits left on #583 and #593
+f912d91	orda-aska	2026-10-26T14:33:42Z	Merge pull request #590 from aska-digital/fix/socket-bind-umask-563
+d5549bf	shahid arifuddin	2026-10-26T14:32:17Z	Merge main 66c4ec6d (#320) into fix/gate-quoted-prefix-assign-471
+e580fa1	ahrazzle	2026-10-26T14:30:20Z	Merge pull request #593 from aska-digital/fix/body-path-nul
+20112f2	orda-aska	2026-10-26T14:24:12Z	Merge pull request #562 from aska-digital/fix/gate-patch-bare-header
+2e1159f	claude	2026-10-26T13:25:04Z	Server: a second start_unix on a live server keeps its lock and record (#563 review)
+5c87847	ahrazzle	2026-10-26T13:12:58Z	Merge pull request #320 from aska-digital/fix/gate-store-name-forms
+150eb1e	shahid arifuddin	2026-10-26T12:54:25Z	Merge main 2923f8b9 (#545) into fix/gate-patch-bare-header
+bcf8f9a	shahid arifuddin	2026-10-26T12:53:59Z	Gate tests: pin the subscript, locale and empty prefix styles (#471)
+1a726ce	shahid arifuddin	2026-10-26T12:50:19Z	Merge main 2923f8b9 (#545) into fix/gate-quoted-prefix-assign-471
+29f5d06	claude	2026-10-26T11:33:07Z	exo-gate: a NUL in a body-file path leaves the body unseen, not the error card (#343 follow-up)
+a120b01	ahrazzle	2026-10-26T11:12:02Z	Merge pull request #545 from aska-digital/fix/compound-body-file-343
+6a0abfc	shahid arifuddin	2026-10-26T11:02:28Z	Merge main 54525f73 (#539, #526, #583) into fix/gate-quoted-prefix-assign-471
+d9b0fa5	shahid arifuddin	2026-10-26T11:00:57Z	Gate: check the line read as before #471 in the hook's grant check
+687c282	shahid arifuddin	2026-10-26T10:55:09Z	Merge main 54525f73 (#539, #526, #583) into fix/gate-store-name-forms
+fa928b2	shahid arifuddin	2026-10-26T10:54:54Z	Gate: list a secret line's copy outside the card's cap (#320)
+ea24407	shahid arifuddin	2026-10-26T10:48:56Z	Merge main 54525f73 (#539, #526, #583) into fix/gate-dollar-line-continuation-584
+bc702de	ahrazzle	2026-10-26T10:19:39Z	Merge pull request #583 from aska-digital/fix/sudo-write-summary-454
+0808899	ahrazzle	2026-10-26T10:19:06Z	Merge pull request #526 from aska-digital/fix/private-tail-budget-244
+02631b5	ahrazzle	2026-10-26T09:17:03Z	Merge pull request #539 from aska-digital/fix/undo-pins-host-389
+716dbe5	shahid arifuddin	2026-10-26T08:16:02Z	Merge commit '358c3a39' into fix/gate-quoted-prefix-assign-471
+ab92cad	shahid arifuddin	2026-10-26T06:25:54Z	Merge main 358c3a39 (#536, #409) into fix/gate-dollar-line-continuation-584
+2be70e5	shahid arifuddin	2026-10-26T06:25:41Z	Gate: join a backslash-newline in a $ form as bash does (#584)
+2789989	shahid arifuddin	2026-10-26T05:06:45Z	Merge main 358c3a39 (#536, #409) into fix/gate-config-json
+f916b37	shahid arifuddin	2026-10-26T05:06:31Z	Protect the Exo home's config.json as a store path (D-074, #125)
+2f83513	shahid arifuddin	2026-10-26T04:37:23Z	Merge main 358c3a39 (#536, #409) into fix/gate-store-name-forms
+006faab	shahid arifuddin	2026-10-26T04:34:10Z	Merge main 358c3a39 (#409) into fix/gate-patch-bare-header
+6c4a83c	claude	2026-10-26T02:15:28Z	Server: bind the Unix socket inside the umask block and start after it (#563)
+fccb1f6	claude	2026-10-26T03:17:51Z	Merge main 358c3a39 into the #343 branch
+bfc2127	ahrazzle	2026-10-26T03:11:57Z	Merge pull request #409 from aska-digital/fix/hash-p-program-330
+0116960	shahid arifuddin	2026-10-26T02:41:57Z	Merge main 7785ffbb (#536) into fix/gate-patch-bare-header
+07a6cff	claude	2026-10-25T02:44:09Z	Gate: name a sudo write apart from another command's program (#454 follow-up)
+ffc5611	claude	2026-10-26T00:12:40Z	Merge main 7785ffbb into the #330 branch
+ceddbe0	claude	2026-10-26T00:11:33Z	Merge main 7785ffbb into the #343 branch
+b09d39c	orda-aska	2026-10-25T23:17:10Z	Merge pull request #536 from aska-digital/fix/ledger-snapshot-umask-317
+1d3d30f	exo-razi	2026-10-25T22:51:52Z	Fix composer command count for the new /permissions row (D-065)
+716dad7	mozi	2026-10-13T14:14:15Z	Add permissions bypass: a permissionless mode for the gate (D-065)
+059b81f	claude	2026-10-25T20:07:47Z	Match the rows a compaction kept from the end of its tail (#389)
+70e8381	shahid arifuddin	2026-10-25T19:46:07Z	Gate: keep main's tool-folder reads and posting checks beside #320
+4dc094f	claude	2026-10-25T19:42:29Z	Read a host undo right after a merged summary row, a repeated ruling or a second undo (#389)
+0361a4e	claude	2026-10-25T18:49:42Z	Gate: a double-quoted ${!n} is no lone hash word (#330)
+5575153	claude	2026-10-25T16:00:11Z	Fold a ruling a summary row quotes in another role (#389)
+6ad8034	claude	2026-10-25T14:22:38Z	Gate: a hash option word ~-, ~+ or ~1 may hold -p too (#330)
+5454655	claude	2026-10-25T13:54:40Z	Act on a host undo only in the last turn's engine, and tie folded pins to summary rows (#389)
+6614fcd	shahid arifuddin	2026-10-25T11:05:48Z	Merge main edeb4f89 into fix/gate-quoted-prefix-assign-471
+6d1bfe5	shahid arifuddin	2026-10-25T11:05:47Z	Gate: pin the line read as before #471 in gate.readings on main
+65fbf21	shahid arifuddin	2026-10-25T11:03:19Z	Gate: each file of a multi-file local write is a part (#559 review)
+dad29a8	claude	2026-10-25T10:55:44Z	Merge main edeb4f89 into the #389 branch
+64c0826	claude	2026-10-25T10:37:53Z	Gate: a hash word that starts with [ is a glob too (#330)
+491f137	claude	2026-10-25T10:09:05Z	Merge main edeb4f89 into the #330 branch
+5e214c5	claude	2026-10-25T09:48:37Z	Gate docs: the chroot limit covers sudo -RDIR too, and names #544 (#343)
+cd69bf1	shahid arifuddin	2026-10-25T09:35:48Z	Merge commit 'edeb4f89' into fix/gate-store-name-forms
+c2cf15a	claude	2026-10-25T09:34:17Z	test(context): pin the question in the oldest pending leaf, as in the reviews (#244)
+e18e80f	claude	2026-10-25T09:01:41Z	Read a target that SQLite cannot open live with immutable=1, as main did (#317)
+d8c7e64	shahid arifuddin	2026-10-25T09:01:41Z	Gate: keep main's store-read parts beside #320's readings
+aadaad8	shahid arifuddin	2026-10-25T08:59:16Z	Gate: a patch header with no path no longer hides the next header (#548 follow-up)
+564488c	claude	2026-10-25T08:56:51Z	perf(context): read the turn's start only up to the private tail (#244)
+04aca2f	claude	2026-10-25T08:38:04Z	Say when a writer clears the live read's files, and which check works (#317)
+22b9075	claude	2026-10-25T08:29:09Z	Gate: pin #343 under main's newer readings, and take the review's nits (#343)
+4025e15	claude	2026-10-25T08:10:53Z	fix(context): stop the view cut at the turn, and wait on a private tree's own jobs (#244, #529)
+b1ddbba	claude	2026-10-25T08:03:29Z	Name SQLite's whole temporary folder search and the overlapping binds (#317)
+c708c2a	claude	2026-10-25T07:53:29Z	Merge main edeb4f89 into the #343 branch
+53ac422	claude	2026-10-25T07:51:23Z	Name the coarse-clock file systems and the live read's leftover files (#317)
+a01fbdb	claude	2026-10-25T07:45:30Z	Merge main edeb4f89 into the #317 branch
+b3c7de3	claude	2026-10-25T07:44:52Z	Merge main edeb4f89 into the #244 branch
+3d2fc83	abu-aska	2026-10-25T07:16:13Z	Merge pull request #541 from aska-digital/fix/handoff-header-395
+ece2d5a	shahid arifuddin	2026-10-25T05:02:38Z	Merge commit '2cc0c32f' into fix/gate-quoted-prefix-assign-471
+554e688	shahid arifuddin	2026-10-25T04:54:56Z	Merge commit 'd79639f1' into fix/gate-store-name-forms
+7c44689	ahrazzle	2026-10-25T04:43:26Z	Merge pull request #549 from aska-digital/fix/escalate-policy-validation-542
+d6226bb	exo-policy	2026-10-25T04:41:21Z	Merge patch move destination fix into escalation validation (#542)
+5bd6dd5	ahrazzle	2026-10-25T04:40:52Z	Merge pull request #548 from aska-digital/fix/codex-patch-move-target-528
+da82e4e	exo-policy	2026-10-25T04:38:20Z	Merge approved main into escalation validation (#542)
+b7a971d	codex-patch	2026-10-25T04:36:56Z	Merge main f10a7489 into the patch move fix
+15e1866	ahrazzle	2026-10-25T04:36:24Z	Merge pull request #452 from aska-digital/fix/tool-cwd-store-read-311
+d2b73a2	codex-integrator	2026-10-25T04:34:17Z	docs(gate): keep #452 limits accurate before #527 lands
+9691c1a	codex-integrator	2026-10-25T04:33:47Z	Merge main into #452; preserve folder readings, SSH stdin and store-write approvers
+7aa8552	codex-patch	2026-10-25T04:30:08Z	fix(gate): inspect Codex patch move destinations
+6640f33	ahrazzle	2026-10-25T04:33:22Z	Merge pull request #489 from aska-digital/fix/store-floor-any-part-447
+7ec5e64	codex-integrator	2026-10-25T04:31:01Z	Merge main into #489; retain displaced-part executor, approver and grant checks
+186797c	ahrazzle	2026-10-25T04:30:45Z	Merge pull request #492 from aska-digital/fix/sudo-redirect-category-454
+fe4e3f7	exo-policy	2026-10-25T04:27:49Z	fix(gate): validate escalation policy types (#542)
+afc22d8	codex-integrator	2026-10-25T04:27:45Z	fix(gate): keep SSH host when stdin outranks a displaced sudo read
+b448e0e	codex-integrator	2026-10-25T04:26:35Z	Merge main after #520 into #492; retain stdin and displaced-part selection
+45c46e7	ahrazzle	2026-10-25T04:26:01Z	Merge pull request #520 from aska-digital/fix/ssh-stdin-sources-316
+ea110e7	ahrazzle	2026-10-25T04:24:57Z	Merge pull request #525 from aska-digital/fix/peer-pinned-keys-132
+d51c820	shahid arifuddin	2026-10-25T03:25:52Z	Gate: merge #471's two readings as #399's are, in decide and the hook
+7b96cc2	claude	2026-10-25T02:09:12Z	Gate: name each held body file, and keep the plain note when it applies (#343)
+5cb216c	claude	2026-10-25T00:54:34Z	Gate: say why a body file stays unread on a line that does more than post (#343)
+3482c56	claude	2026-10-25T00:48:52Z	Handoff: correct what the docs say about older files (#395 review)
+0333b83	ahrazzle	2026-10-21T13:16:07Z	Gate: a body file on a compound line stays unread, so the post asks (#343)
+67ef6a6	claude	2026-10-24T23:09:22Z	Keep folded rulings through a host undo, and take every turn of /undo N (#389)
+3402657	claude	2026-10-24T23:08:09Z	Handoff: resume_text puts the header on one line (#395 review)
+79b4db2	claude	2026-10-24T22:54:29Z	Read a symlinked ledger live when its copy fails on an unchanged target (#317)
+8f1bb0a	claude	2026-10-24T22:35:31Z	Handoff: read Decisions from its one heading after the header (#395 review)
+eebd57e	claude	2026-10-24T22:36:15Z	Check a symlinked ledger's copy against a writer and lock the socket bind's umask (#317)
+b53f529	ahrazzle	2026-10-21T10:16:55Z	fix(handoff): keep header fields to one line and read Decisions only from a single heading (#395)
+8f81308	claude	2026-10-24T22:15:26Z	Pass a host's undo from exo-memory to exo-context (#389)
+79ae2e7	ahrazzle	2026-10-21T10:21:46Z	Drop pins whose turn a host removed without telling the engine (#389)
+a629582	ahrazzle	2026-10-21T11:34:56Z	Copy a symlinked ledger into memory at open and lock the umask probe (#317)
+0a0cacc	claude	2026-10-24T21:08:04Z	Tests: a real gh line whose store write only the reading before #399 holds stays the principal's (#447, #399)
+a6cbb32	claude	2026-10-24T20:04:11Z	Docs: both readings of a gh line count for the store write parts, and the gate_diff run against main d79639f1 (#447)
+240f4e0	claude	2026-10-24T19:47:33Z	test(context): pin that /context finds the running turn by the last turn id (#244)
+7b11461	claude	2026-10-24T19:40:09Z	Tests: a store write beside a secret read on a gh line read two ways stays the principal's (#447, #399)
+59c3f49	shahid arifuddin	2026-10-24T19:36:50Z	Merge remote-tracking branch 'origin/main' into fix/gate-quoted-prefix-assign-471
+bd65f31	claude	2026-10-24T19:08:15Z	Merge main d79639f1 into the #447 branch
+e779f00	claude	2026-10-24T17:25:03Z	Peers: a presence file that names another principal makes the sender other (#132, #525 check)
+2f74e1b	claude	2026-10-24T17:08:20Z	fix(context): wait on a private tree's own leaves before a cut, and find the turn as build does (#244)
+57de757	claude	2026-10-24T15:57:31Z	Peers: no receiver principal for a key with no seat file, and keys of other homes are other (#132, #525 review)
+4c541c4	claude	2026-10-24T15:52:36Z	Merge main d79639f1 into the #244 branch
+e759846	claude	2026-10-24T15:30:16Z	Gate: name the hop's post that displaces a later post, with a test and a second focused corpus (#316)
+5f5909a	claude	2026-10-24T15:22:12Z	Merge main d79639f1 into the #132 branch
+319c67f	claude	2026-10-24T14:28:39Z	Gate: a shell call's folder through a link is read as the kernel reads it, and folded too (#311)
+1303a39	claude	2026-10-24T14:19:19Z	Merge main d79639f1 into the #311 branch
+10aa844	claude	2026-10-24T14:10:09Z	Gate: a reserved hit on a sudo write keeps its ask from a grant (#454)
+d7c491a	claude	2026-10-24T14:01:03Z	Gate: #399 fill on the part that runs ssh's stdin, a declare value's $( ) read as fed, exo-36's nits (#316)
+ebdb9c6	claude	2026-10-24T13:11:28Z	Merge main d79639f1 into the #316 branch
+fcb85a1	claude	2026-10-24T06:49:40Z	Merge main d79639f1 into the #454 branch
+aa420d7	claude	2026-10-24T06:49:10Z	D-038 #454 amendment: the differential against main 8c09c29c
+9c6502e	claude	2026-10-24T06:17:11Z	Merge main d79639f1 into the #330 branch
+cc73173	ahrazzle	2026-10-24T06:15:29Z	Merge pull request #440 from aska-digital/fix/plugins-dir-store-435
+a4c3904	claude	2026-10-24T06:15:08Z	DECISIONS: name the force-push-then-rm group in the #435 amendment
+805e16b	claude	2026-10-24T05:35:40Z	Docs: the "With #399" example names its whole policy (#311)
+00d725e	claude	2026-10-24T05:34:28Z	tests: the ledger-view row splits its URL userinfo (#311)
+fe37498	claude	2026-10-24T05:34:10Z	Tests: pin how the #454 copy and #399's other targets merged
+ee340ab	claude	2026-10-24T05:24:20Z	tests: a gh line in a shell call's own folder is decided on every reading (#311, #399)
+8de9050	claude	2026-10-24T05:23:50Z	Gate: the line as #399 read it before keeps its displaced part's approvers (#454)
+711fa07	claude	2026-10-24T05:14:00Z	Merge main 8c09c29c into the #311 branch
+acba19a	claude	2026-10-24T05:10:14Z	Merge main 8c09c29c into the #454 branch
+05b6584	claude	2026-10-24T04:41:26Z	Merge main 8c09c29c into the #435 branch
+7de564a	ahrazzle	2026-10-24T04:38:14Z	Merge pull request #439 from aska-digital/fix/gh-target-option-value-399
+e450796	claude	2026-10-24T03:48:37Z	Gate: raise a sudo write's displaced part with its copy; bind on its ask (#454 re-check 2)
+b4978e1	claude	2026-10-24T00:32:20Z	fix(context): cut a private view's pending leaves too, and wait before a cut (#244)
+1d7308b	claude	2026-10-24T00:14:04Z	Peers: keep hold and deny rules for an unpinned sender, and read only plain presence files (#132, #428 check)
+36e356a	claude	2026-10-23T23:44:15Z	Peers: check keys and principals in the receiving home only (#132, #428 review)
+29ab2da	claude	2026-10-23T23:41:18Z	fix(context): cut only a private thread's pending spans, never its turn (#244)
+2fa3ea3	claude	2026-10-23T23:28:35Z	Gate: the line alone takes its brace budgets from _brace_budget (#311)
+8303445	ahrazzle	2026-10-21T14:00:06Z	Verify peer envelopes against the seat's pinned key, not its presence file (#132)
+de15d70	ahrazzle	2026-10-21T14:08:35Z	fix(context): cut a private thread's tail to the budget until its first summary lands (#244)
+73913c8	claude	2026-10-23T23:00:00Z	Gate: pin #316's sure flags and fed store substitutions, and give the counts on main 5a9dc394 (#316)
+43d35a7	claude	2026-10-23T22:47:40Z	Gate: a nested sudo write copy ranks as before; a repo or host binds the approval (#454 re-check)
+e34680e	claude	2026-10-23T12:15:15Z	Gate: no sure ssh flag after `--`, and the #240 form keeps its lead and targets beside the new part (#316)
+61594ba	claude	2026-10-23T06:38:35Z	Gate: keep ssh's own part beside its stdin part, read a wrapper's stdin, trust -n before an expanding word (#316)
+729f8d1	claude	2026-10-22T18:29:36Z	Gate: read ssh stdin from a compound's <, a >( ), a $( ) or a remote hop (#316)
+0b3a339	ahrazzle	2026-10-21T14:42:51Z	Gate: a >( ) body in a declare value is read, and the fed mark leaves classify_shell's signature (#316)
+a52307b	claude	2026-10-23T20:08:32Z	Gate: decide a sudo write line with its displaced part too (#454 review)
+ac28064	ahrazzle	2026-10-21T10:47:24Z	Gate: ssh stdin from a compound redirection, a >( ) or a remote hop is read (#316)
+e135fab	claude	2026-10-23T19:48:52Z	Docs: the folder form's remaining differences from its cd form (#311)
+fc44708	claude	2026-10-23T19:28:24Z	GATE.md: a camelCase delete of a folder holding the store, with no secret, is not a store write yet (#447)
+2a8b83a	claude	2026-10-23T18:50:09Z	Gate: a shell call's folder read weighs as its cd form's does (#311, #468)
+badb94d	claude	2026-10-23T18:41:42Z	D-038 #447 amendment: the gate_diff run at 2b57559d against main 5a9dc394
+9286bf9	claude	2026-10-23T18:25:29Z	Gate: a camelCase file tool name that says move or delete reads the store's folders beside a secret (#447 review)
+7ecf903	shahid arifuddin	2026-10-23T18:24:36Z	Merge main 5a9dc394 into fix/gate-quoted-prefix-assign-471
+4b83a03	shahid arifuddin	2026-10-23T18:24:25Z	Merge main 01101d3c into fix/gate-quoted-prefix-assign-471
+d3cfdb3	shahid arifuddin	2026-10-23T18:11:19Z	Merge main 5a9dc394 into fix/gate-store-name-forms
+39e24da	shahid arifuddin	2026-10-23T18:10:16Z	Gate: answer the #320 review on top of #467 (#309, #341)
+142f1a5	claude	2026-10-23T18:04:06Z	D-038 #454 amendment: the built-in corpus size against main 5a9dc394
+5dd1616	claude	2026-10-23T18:03:45Z	Gate docs: #435's differential against main 5a9dc394 (#468)
+7129a95	claude	2026-10-23T18:03:14Z	D-038 #447 amendment: the gate_diff run at e4a0384f against main 5a9dc394
+dfc4f92	claude	2026-10-23T17:48:44Z	Gate: count each entry a reading left out when readings merge (#399 round 13)
+9fce81f	claude	2026-10-23T17:43:37Z	Merge main 5a9dc394 into the #454 branch
+3f928c3	claude	2026-10-23T17:39:17Z	Merge main 5a9dc394 into the #435 branch
+a17c50d	claude	2026-10-23T17:32:42Z	Docs: count the #330 differential against main 5a9dc394
+45ddd3a	claude	2026-10-23T17:29:02Z	Gate: a substitution's store write after cd into the store stays the principal's (#447, #465)
+2f1eb4c	claude	2026-10-23T17:26:12Z	Merge main 5a9dc394 into the #447 branch
+7df0a1c	claude	2026-10-23T17:25:43Z	Gate: every store path, and a moved store folder, beside a secret is a part (#447 review)
+a8f51d2	claude	2026-10-23T17:02:49Z	Merge main 5a9dc394 (#488, #468) into #399
+aaed0f5	claude	2026-10-23T17:01:59Z	Merge main 5a9dc394 into the #330 branch
+79560b7	claude	2026-10-23T17:00:32Z	Merge main 5a9dc394 into the #311 branch
+abdc5bb	ahrazzle	2026-10-23T16:56:06Z	Merge pull request #468 from aska-digital/fix/cd-store-subs-465
+d972e66	ahrazzle	2026-10-23T16:54:44Z	Merge pull request #488 from aska-digital/tools/gate-diff-462-followup
+e46f337	shahid arifuddin	2026-10-23T16:32:59Z	Gate: read a quoted prefix assignment as one, keep main's reading (#471)
+695aa8f	claude	2026-10-23T13:20:33Z	Gate: a hash -p word the gate cannot read may bind a name (#330)
+7ec5a06	claude	2026-10-23T11:39:11Z	Docs: count the #330 differential with main's gate_diff after #462
+83147f6	claude	2026-10-23T10:57:51Z	Gate: write up the target, ssh host and own text groups (#454)
+f09a282	claude	2026-10-22T19:53:06Z	Gate: a sudo command's write redirection sets the line's category (#454)
+05d6306	claude	2026-10-23T10:29:04Z	Gate: a file tool's store file beside a secret is a store write part (#447)
+6e7c9c6	claude	2026-10-22T03:46:29Z	Gate: a store write anywhere on a line keeps the answer with the principal (#447)
+f146770	claude	2026-10-23T11:13:51Z	Tests: anchor #462's two listing mutants on this branch's _decide
+c475d52	claude	2026-10-23T11:07:38Z	Merge main 01101d3c into the #330 branch
+c856b67	claude	2026-10-23T11:06:41Z	Gate: a shell command beside a rebind keeps the store check (#330)
+38ce70e	claude	2026-10-23T10:59:08Z	gate_diff: seed suffix shell names under cmd beside an empty command; show totals (#462 follow-up)
+5912585	claude	2026-10-23T10:54:36Z	Merge main 01101d3c into PR #439
+3a0b838	claude	2026-10-23T10:54:31Z	Round 12: the hook's error fallback reads every reading of the line
+0b1e023	claude	2026-10-23T10:53:20Z	D-038 #465 amendment: the gate_diff run at 527113f1
+52f6a83	claude	2026-10-23T10:50:36Z	Merge main 01101d3c into the #465 branch
+5670893	ahrazzle	2026-10-23T10:49:06Z	Merge pull request #462 from aska-digital/tools/gate-diff-460
+cd60a66	claude	2026-10-23T10:26:21Z	Gate: a key read on a store-write line weighs as a secret line (#468 review)
+4cbbfd0	claude	2026-10-23T07:43:16Z	Gate: a store-write line keeps its folder's store read as a part, and the hook fallback reads parts (#311, #464)
+537f8b2	claude	2026-10-23T10:18:10Z	Gate docs: #435's sudo-over-ssh group covers writes, and D-075 keeps no #435 amendment
+ccfd258	claude	2026-10-23T08:23:43Z	D-038 #465 amendment: the gate_diff run at 008bbe8e
+05b9ea7	claude	2026-10-23T08:02:01Z	Round 11b: posts with copies and other posts each have their own room
+a8ece49	claude	2026-10-23T07:53:52Z	Gate docs: #467 lifts the file-tool and /dev groups of #435
+7507246	claude	2026-10-23T07:49:33Z	gate_diff: run a seed under cmd beside an empty command; DOCS-MAP for #460
+97e212a	claude	2026-10-23T07:37:34Z	Merge main c27d8739 into the #435 branch
+7fc91c8	claude	2026-10-23T07:42:04Z	Gate: a secret line keeps its own parts' weight, and a heavier one stands beside it (#468 review)
+1a145f7	claude	2026-10-23T07:36:29Z	Round 11: a line with copies lists a bounded number of violations
+d87d6ff	claude	2026-10-23T07:36:17Z	Merge main c27d8739 into PR #439
+33a5359	claude	2026-10-23T07:34:27Z	D-038 #465 amendment: the gate_diff run against main c27d8739
+71403c0	claude	2026-10-23T07:33:27Z	Merge main c27d8739 into the #311 branch
+49a3aca	claude	2026-10-23T07:12:02Z	Merge main c27d8739 into the #330 branch
+63d99cc	claude	2026-10-23T07:02:05Z	Gate: a compound's own redirections run before it, so a $( ) there keeps its folder
+3686a2f	claude	2026-10-23T06:36:40Z	Merge main c27d8739 into the #460 branch
+5b22cb2	claude	2026-10-23T06:33:54Z	Gate: pin the marked-part checks and name each lowered group in full (#330)
+f6d1797	claude	2026-10-23T06:33:16Z	gate_diff: count hidden violations in each tree's total (#460 review)
+9dbdfe8	shahid arifuddin	2026-10-23T06:29:50Z	Merge branch 'pr467-base' into fix/gate-store-name-forms
+3c11257	claude	2026-10-23T06:29:24Z	Merge main c27d8739 into the #465 branch
+cf2fc63	claude	2026-10-23T06:29:02Z	Gate: seed a substitution by its place in the line, not its text (#465 review)
+5db0b00	claude	2026-10-23T06:28:29Z	Merge main 77274ab9 into the #435 branch
+2d9f17b	claude	2026-10-23T06:28:29Z	Merge main 77274ab9 into the #311 branch
+fd74a54	ahrazzle	2026-10-23T06:28:23Z	Merge pull request #467 from aska-digital/fix/store-top-parts-464
+2f0fe16	shahid arifuddin	2026-10-23T06:21:41Z	Merge remote-tracking branch 'origin/main' into fix/gate-store-name-forms
+0cf80df	ahrazzle	2026-10-23T06:11:24Z	Merge pull request #470 from aska-digital/chore/review-nits-1022
+c9f3d8c	claude	2026-10-23T06:10:48Z	Merge main 050dedfa into the #465 branch
+5c823b9	claude	2026-10-23T06:06:20Z	Merge main 050dedfa into the #460 branch
+0890250	claude	2026-10-23T06:02:47Z	Pin find's node-set check and the capture lock in tests (#470 review)
+cb40e38	ahrazzle	2026-10-23T05:59:51Z	Merge pull request #404 from aska-digital/fix/unset-path-329
+c7550e8	claude	2026-10-23T05:44:58Z	tests: gate_diff's folder rows and its cwd loosening follow #311
+ba380c0	claude	2026-10-23T05:26:30Z	Merge main 0f203e7f into PR #452
+2746c1a	claude	2026-10-23T04:56:31Z	Gate: a folder argument never makes classify raise, and a store inside a repo's .claude counts (#311)
+cfb5639	claude	2026-10-23T05:23:00Z	Merge main 0f203e7f into the #435 branch
+a796147	claude	2026-10-23T05:08:25Z	Gate docs: name the upload-tool and doas facets of the #435 lowered groups
+8bd6f5c	claude	2026-10-22T19:51:26Z	Follow-ups from the reviews of #406, #414, #441, #442, #444 and #445
+c99d3f2	ahrazzle	2026-10-23T04:19:15Z	Merge pull request #463 from aska-digital/fix/privacy-gate-diff-test
+30a719b	claude	2026-10-23T00:35:37Z	Gate: annotate the #465 command lists for the type check
+cc903ed	claude	2026-10-23T00:35:09Z	Docs: gate_diff numbers for #465
+6255637	claude	2026-10-23T00:23:16Z	Gate: a substitution runs where its command runs; a nested line keeps its folder (#465)
+a2ae5b9	claude	2026-10-23T00:01:14Z	Gate: keep a substitution's commands as strict as when they decide the line (#465)
+d559591	claude	2026-10-22T23:41:17Z	Merge #467 (fix/store-top-parts-464) into #465: the matrix part pass keeps a substitution's deny beside the new store write
+f566cc8	claude	2026-10-22T21:32:55Z	tests: keep an address-shaped string out of test_gate_diff (main red)
+c8a1372	claude	2026-10-22T23:31:23Z	Gate: after cd into the store, a write inside $( ), backticks or <( ) is a store write (#465)
+759a1b0	claude	2026-10-22T23:15:06Z	Gate: review fixes for #464 (one part per written file, hook fallback, docs)
+1cc4060	claude	2026-10-22T21:32:55Z	tests: keep an address-shaped string out of test_gate_diff (main red)
+2afc78f	claude	2026-10-22T21:59:55Z	Gate: a store write or secret no longer hides a line's other denies (#464, #448)
+8755c9b	claude	2026-10-22T21:32:55Z	tests: keep an address-shaped string out of test_gate_diff (main red)
+5a0680d	claude	2026-10-22T21:32:55Z	tests: keep an address-shaped string out of test_gate_diff (main red)
+d8b07ff	claude	2026-10-22T20:36:02Z	Gate: a hash -p or BASH_CMDS path is no store write over ssh, man -P or printf -v (#330)
+e6a855d	claude	2026-10-22T20:22:21Z	Merge main 3ddd89e9 into the #329 branch
+aa84eff	claude	2026-10-22T20:09:33Z	Round 10: a post's copies list only what is new, and no cap cuts them
+2ea952d	claude	2026-10-22T19:50:55Z	gate_diff: leave out the "and N more on other posts" line (#460)
+6470f28	claude	2026-10-22T19:50:03Z	Merge main 3ddd89e9 into the #330 branch
+b905b15	claude	2026-10-22T19:45:45Z	gate_diff: count repeated violations, new shell tool names, both keys (#460)
+0ababec	claude	2026-10-22T19:38:07Z	Merge main 3ddd89e9 into the #435 branch
+7626d56	ahrazzle	2026-10-22T19:22:19Z	Merge pull request #434 from aska-digital/tools/gate-diff-423
+2ce36ac	claude	2026-10-22T19:18:13Z	Gate: a store line's here-doc reaches a post inside a nested line (#435)
+60e99b5	claude	2026-10-22T18:33:01Z	Gate: a shell call's folder argument only adds a credentials part (#311)
+19bb0ba	claude	2026-10-22T18:31:46Z	Merge the #435 branch at 904f3066 (main 39cafcba) into the review fix
+9cd76fa	shahid arifuddin	2026-10-22T18:29:11Z	Gate: read ./.?, .?/.. and ${x[0]:-word} in store checks (#320)
+d049625	claude	2026-10-22T18:14:24Z	Ask on unset \\<newline>[P]ATH (#329)
+4dcad30	shahid arifuddin	2026-10-22T17:36:05Z	Merge remote-tracking branch 'origin/main' into fix/gate-store-name-forms
+9220eff	shahid arifuddin	2026-10-22T17:29:16Z	Gate: one expansion reading for store reads and writes (#309, #341)
+9dd8b70	shahid arifuddin	2026-10-20T22:51:21Z	Merge main into fix/gate-store-name-forms
+c13bdbf	Raz Arif	2026-10-22T17:25:18Z	fix(gate): correct heredoc integration and named-descriptor expectation
+9979dde	Raz Arif	2026-10-22T17:20:22Z	Merge main 39cafcba into PR #452
+d6675e7	Raz Arif	2026-10-22T17:19:47Z	Merge main 39cafcba into PR #440
+335dffb	Raz Arif	2026-10-22T17:19:32Z	Merge main 39cafcba into PR #333
+674adab	Raz Arif	2026-10-22T17:19:21Z	Merge main 39cafcba into PR #404
+a64ff0d	Raz Arif	2026-10-22T17:18:46Z	Merge main 39cafcba into PR #409
+1e43645	Raz Arif	2026-10-22T17:18:23Z	Merge main 39cafcba into PR #439
+6234aab	Raz Arif	2026-10-22T17:18:19Z	Merge main 39cafcba into PR #235
+e6c2d1c	ahrazzle	2026-10-22T17:15:17Z	Merge pull request #451 from aska-digital/fix/for-name-do-436
+9e738ca	Raz Arif	2026-10-22T17:15:12Z	Merge main f0100562 into PR #452
+05074e9	Raz Arif	2026-10-22T17:15:05Z	Merge main f0100562 into PR #434
+5b4db16	Raz Arif	2026-10-22T17:13:58Z	Merge main f0100562 into PR #440
+112c89a	Raz Arif	2026-10-22T17:13:32Z	Merge main f0100562 into PR #404
+2c4b3cc	Raz Arif	2026-10-22T17:13:23Z	Merge main f0100562 into PR #451
+61f33a6	Raz Arif	2026-10-22T17:13:08Z	Merge main f0100562 into PR #439
+7132218	Raz Arif	2026-10-22T17:12:50Z	Merge main f0100562 into PR #409
+f24c0c6	ahrazzle	2026-10-22T17:10:51Z	Merge pull request #443 from aska-digital/fix/update-pin-store-133
+2e21f52	Raz Arif	2026-10-22T17:08:09Z	Merge main 88eec774 into PR #451
+684345c	Raz Arif	2026-10-22T17:05:50Z	docs(gate): record all reviewed trust-pin lowering groups
+6f6ac44	Raz Arif	2026-10-22T17:04:40Z	Merge main 88eec774 into PR #443
+41d098a	ahrazzle	2026-10-22T17:00:24Z	Merge pull request #107 from aska-digital/design/event-activation
+25e15a4	Raz Arif	2026-10-22T16:59:58Z	Merge main 550f3ef7 into PR #107
+daf35db	ahrazzle	2026-10-22T15:10:46Z	Merge pull request #456 from aska-digital/fix/bus-query-bounds-455
+1009bd5	claude	2026-10-22T13:44:07Z	Gate: a store file sent out keeps the send's deny and posting checks (#435)
+6f5c28a	claude	2026-10-22T13:24:39Z	Merge main 9276a344 into the #399 branch
+cf0db0b	claude	2026-10-22T13:09:22Z	Merge main 9276a344 into the #423 branch
+5ecfea3	ahrazzle	2026-10-22T13:03:23Z	Merge pull request #414 from aska-digital/fix/proc-environ-313
+74661d5	claude	2026-10-22T13:02:47Z	Merge main d3253fed into the #313 branch
+47feb12	codex	2026-10-22T13:00:59Z	Merge reviewed fork context fix into the relay bounds PR
+228c40e	ahrazzle	2026-10-22T12:59:27Z	Merge pull request #405 from aska-digital/fix/fork-undone-entries-245
+e75a826	codex	2026-10-22T12:56:52Z	Merge main optimizations into the relay query bounds fix
+7f45bdf	codex	2026-10-22T12:55:11Z	Merge main optimizations into the #245 fork context branch
+125546f	claude	2026-10-22T12:54:38Z	gate_diff: compare a violation named after its post by its text
+de9a3f5	codex	2026-10-22T12:54:33Z	fix(bus): bound relay sequence queries and page limits (#455)
+6a683a7	ahrazzle	2026-10-22T12:54:30Z	Merge pull request #445 from aska-digital/fix/signals-watermark-http-client-263
+dc61652	codex	2026-10-22T12:53:51Z	Merge main after CLI and store optimizations into the #263 branch
+3a5f7aa	ahrazzle	2026-10-22T12:53:25Z	Merge pull request #442 from aska-digital/fix/store-find-cache-254
+2252305	codex	2026-10-22T12:51:51Z	Merge main after CLI optimization into the #254 branch
+732de5b	ahrazzle	2026-10-22T12:50:41Z	Merge pull request #441 from aska-digital/fix/cli-lazy-imports-260
+2d67048	claude	2026-10-22T12:46:15Z	Merge main 8bd175a0 into the #435 branch
+3026d2a	claude	2026-10-22T12:30:38Z	Keep #245 inside the core budget after main moved
+8a49a4c	claude	2026-10-22T12:39:54Z	Merge main 8bd175a0 into the #399 branch
+75405f6	claude	2026-10-22T12:26:39Z	Merge main 8bd175a0 into the #263 branch
+aff6fff	claude	2026-10-22T12:26:28Z	Merge main 8bd175a0 into the #133 branch
+9abca93	claude	2026-10-22T12:26:03Z	Merge main 8bd175a0 into the #254 branch
+590f7a5	claude	2026-10-22T12:25:56Z	Merge main 8bd175a0 into the #260 branch
+4a95d80	claude	2026-10-22T12:25:28Z	Merge main 8bd175a0 into the #313 branch
+579037e	claude	2026-10-22T12:25:21Z	Merge main 8bd175a0 into the #330 branch
+d7fe11f	claude	2026-10-22T03:19:14Z	Gate: open the loop body at `for NAME do` and `select NAME do` (#436)
+7478cb4	claude	2026-10-22T03:25:47Z	Gate: a tool folder below a secret store counts every name, as a cd there does (#311)
+f04dc08	claude	2026-10-22T02:51:29Z	Gate: a tool cwd's store read is a part of the line it keeps (#311)
+ac815f7	ahrazzle	2026-10-21T14:37:57Z	fix(gate): a tool cwd in a sensitive store checks names, not every word (#311)
+95ee096	ahrazzle	2026-10-21T11:24:11Z	fix(gate): check a shell call's cwd argument as a leading cd target (#311)
+065b9cf	claude	2026-10-22T12:23:51Z	Merge main 8bd175a0 into the #245 branch
+3cc4d6f	claude	2026-10-22T12:23:42Z	Merge main 8bd175a0 into the #329 branch
+299cc81	ahrazzle	2026-10-22T12:21:44Z	Merge pull request #406 from aska-digital/fix/two-posts-line-396
+7df4cea	ahrazzle	2026-10-22T12:21:37Z	Merge pull request #444 from aska-digital/fix/server-bad-headers-264
+fd96aa0	claude	2026-10-22T06:52:47Z	docs(gate): name the gh commands that take -R, and the GODEBUG limit (#399)
+23aa534	claude	2026-10-22T06:45:50Z	fix(gate): read gh URL fragments, fork and clone words, and --repo=$R as gh does (#399)
+c1cb392	claude	2026-10-22T06:31:51Z	fix(scripts): gate_diff reads and/or and the model catalog as Python and the gate do (#423)
+e4157c1	claude	2026-10-22T06:22:23Z	fix(scripts): gate_diff keeps a violation named after its post (#423)
+f03dcfa	claude	2026-10-22T05:20:33Z	fix(scripts): gate_diff reads more gate tables and names any it cannot (#423)
+0b87a7d	claude	2026-10-22T04:40:28Z	fix(gate): read gh repo words and gist URLs as gh does (#399)
+8c90c26	claude	2026-10-22T04:13:34Z	fix(gate): read gh URL hosts and split values as gh and bash do (#399)
+e7d9659	claude	2026-10-22T02:57:21Z	Merge main 2ef1a81f (#364) into the gate_diff branch
+ff5d735	claude	2026-10-22T02:56:57Z	fix(scripts): gate_diff cleanup ignores stop signals, corpus items checked (#423)
+e5334ff	claude	2026-10-22T02:48:54Z	fix(scripts): gate_diff builds its corpus from the gate's tables (#423)
+fb783b0	claude	2026-10-22T02:43:45Z	Gate: keep the store check for hash beside a write (#330)
+ef89b05	claude	2026-10-22T02:38:23Z	fix(gate): read every github.com host and options before the gh command (#399)
+3981e94	claude	2026-10-22T02:35:35Z	Write up who answers beside a store write, and pin the search-tool skip
+e8b6492	claude	2026-10-22T02:14:42Z	Docs: D-038 #330 amendment counts from the differential at feccdbc0
+8b28666	claude	2026-10-22T02:12:50Z	Gate: keep a post's deny beside hash -p, read hash options as bash does (#330)
+24a65d6	claude	2026-10-22T02:04:07Z	Read a glob in the task folder and write up the lines #313 lowers
+7465367	claude	2026-10-22T01:46:24Z	Ask on unset [P]ATH, and write up three more lowered groups (#329)
+b1dd439	claude	2026-10-22T01:36:39Z	Merge main 2ef1a81f into the #313 branch
+64a66d6	claude	2026-10-22T01:36:31Z	Merge main 2ef1a81f into the #330 branch
+3206e6c	claude	2026-10-21T20:32:12Z	Chat capture reads only the new ledger rows for its known keys (#263)
+03c175f	claude	2026-10-21T20:37:22Z	fix(server): answer a bad number in a request with 400 (#264)
+bd92102	claude	2026-10-22T01:24:08Z	Count the line-wide unseen note inside the twenty listed violations
+9c1f81c	claude	2026-10-22T01:23:56Z	Merge main 2ef1a81f into the #399 branch
+bf6966f	claude	2026-10-22T01:18:48Z	docs(memory): reflow the undo paragraph in MEMORY-MODEL (#245)
+2277ef4	claude	2026-10-22T01:07:15Z	fix(context): keep only a fork's copies of logged entries, and only look in forks (#245)
+a0f397c	claude	2026-10-22T00:54:40Z	Merge main 2ef1a81f into the #329 branch
+3b672fa	claude	2026-10-22T00:54:10Z	Give the #329 differential counts for the final tree (#329)
+93264f1	claude	2026-10-22T00:41:57Z	Merge main 2ef1a81f into the #245 branch
+cf0816f	claude	2026-10-22T00:41:03Z	Ask on unset of an array's elements, which may hold PATH (#329)
+24b212e	claude	2026-10-22T00:40:53Z	fix(scripts): gate_diff runs calls as written and records the rule (#423)
+b874447	claude	2026-10-21T20:19:55Z	Gate: the signed-update trust pin is a store path (#133)
+8c21df5	claude	2026-10-22T00:28:36Z	Ask on an unset word the gate cannot read, and read builtin options once (#329)
+b143091	claude	2026-10-22T00:26:45Z	Merge main 2ef1a81f into the #396 branch
+8e6303f	claude	2026-10-22T00:24:27Z	Name each unseen post, cap the listed violations and document #396
+ac5e9cc	claude	2026-10-22T00:21:43Z	Merge main 2ef1a81f into the #254 branch
+b915b74	ahrazzle	2026-10-22T00:21:26Z	Merge pull request #364 from aska-digital/fix/tui-steer-feedback
+e945748	claude	2026-10-22T00:05:49Z	Merge main bd503a5d into the #361 branch
+3090a01	claude	2026-10-21T19:47:24Z	CLI: import a command's module only when that command runs (#260)
+54753ce	claude	2026-10-21T19:53:43Z	Gate: a write into $EXO_HOME/plugins is a store write (#435)
+4a721ac	claude	2026-10-21T20:35:46Z	Merge main bd503a5d into the #396 branch
+c5411fe	claude	2026-10-21T20:34:23Z	Merge main bd503a5d into the #329 branch
+11148f6	claude	2026-10-21T19:42:12Z	Store: find keeps its BM25 tables per node set (#254 W1-5)
+981bb17	claude	2026-10-21T19:16:53Z	Merge main bd503a5d into the #399 branch
+cd252ef	claude	2026-10-21T17:38:19Z	Merge main bd503a5d (#433) into the gate_diff branch
+0405693	claude	2026-10-21T17:09:36Z	gate_diff: keep the imports in order (#423)
+96903e3	claude	2026-10-21T17:07:18Z	docs: cite the round 5 #399 differential with the hook axes (#399)
+13cf6fe	claude	2026-10-21T16:58:45Z	gate_diff: HOME out of /tmp, error labels, corpus files first (#423)
+2d5f337	claude	2026-10-21T16:57:18Z	gate_diff: a worker that dies fails the run instead of hanging (#423)
+709be58	claude	2026-10-21T16:54:49Z	gate_diff: exit 2, not 1, when the script itself fails (#423)
+a2213e0	claude	2026-10-21T16:53:32Z	gate_diff: read comprehensions, dicts and sums in the harvester (#423)
+2e698a2	claude	2026-10-21T16:51:13Z	gate_diff: harvest the corpus from both trees (#423)
+e35f38f	claude	2026-10-21T16:10:30Z	Add scripts/gate_diff.py to check a gate change against main (#423)
+7be9230	claude	2026-10-21T16:03:24Z	fix(gate): a line unseen as read before stays unseen (#399)
+e7a1815	ahrazzle	2026-10-21T15:36:42Z	Merge pull request #433 from aska-digital/fix/gate-command-rule-parts-394
+a34f12b	claude	2026-10-21T14:52:10Z	Say in the gates.yaml template what an allow rule must cover (#394)
+7bf0975	claude	2026-10-21T14:38:37Z	test(exo-gate): the grant lookup reads the line as read before too (#399)
+79e348b	claude	2026-10-21T14:12:43Z	fix(gate): read the gh nits of round 5 as gh reads them (#399)
+02c74a0	claude	2026-10-21T14:07:48Z	fix(gate): read gh api's method as gh reads it (#399)
+1addca2	claude	2026-10-21T13:59:19Z	test(gate): pin the parts of the #399 reading that mutants left alive (#399)
+5000651	claude	2026-10-21T13:54:31Z	Merge origin/main b419f91b into the #399 branch
+93b38e2	claude	2026-10-21T13:48:27Z	fix(exo-gate): who may answer and once read the line as read before too (#399)
+511b2bc	claude	2026-10-21T13:46:58Z	fix(exo-gate): a required executor reads the line as read before too (#399)
+c603ef2	ahrazzle	2026-10-21T11:22:33Z	Gate: /proc/<pid>/task/<tid>/environ is a secret store (#313)
+694b1f8	claude	2026-10-21T11:20:08Z	Merge main b419f91b into the #394 branch
+d127400	claude	2026-10-21T10:55:31Z	Merge main 310e354b into the #394 branch
+8bfbbb5	claude	2026-10-21T10:54:43Z	Drop two pipe text checks that p_at already makes (#394)
+fcbab8f	orda-aska	2026-10-21T10:53:43Z	Merge pull request #408 from aska-digital/fix/open-decision-pins-398
+b6d4a36	claude	2026-10-21T10:53:41Z	Pin the ledger view, the depth cap parts and more setters (#394)
+8b16084	claude	2026-10-21T10:49:33Z	Keep code with a literal that sets shell state decided as before (#394)
+b4e9cee	claude	2026-10-21T10:39:28Z	docs: cite the #399 differential over seven corpora and host policies (#399)
+7bebceb	ahrazzle	2026-10-21T10:30:38Z	Gate: hash -p makes a trusted name run another file, so read it as opaque (#330)
+ed0e57f	ahrazzle	2026-10-21T10:29:04Z	Cap open-decision pins at the newest 12 and correct the 0.2.0 upgrade note (#398)
+c99a556	orda-aska	2026-10-21T10:28:53Z	Merge pull request #400 from aska-digital/fix/gh-reopen-merge-text-397
+264944b	ahrazzle	2026-10-21T10:26:22Z	Gate: run the posting checks on every post on a line (#396)
+0016bae	ahrazzle	2026-10-21T10:25:28Z	fix(context): a fork keeps its copies of entries the parent undid after the fork (#245)
+4927d51	ahrazzle	2026-10-21T10:22:42Z	fix(gate): read unset PATH as the empty assignment it amounts to (#329)
+7b63eca	ahrazzle	2026-10-21T10:13:20Z	Gate: check reopen comments and merge text under posting rules (#397)
+9634002	claude	2026-10-21T09:43:38Z	fix(gate): read a gh URL operand as gh reads it (#399)
+b13e939	claude	2026-10-21T09:40:00Z	fix(exo-gate): read a post's body file into each reading of the post (#399)
+b20b135	claude	2026-10-21T09:26:29Z	fix(gate): an ssh host stands for an empty other target below the top too (#399)
+2d7d529	claude	2026-10-21T08:06:38Z	docs: cite the final #399 differential over five corpora (#399)
+23dd0bf	claude	2026-10-21T07:51:03Z	fix(gate): pass over an empty word before the gh command too (#399)
+2ccaf98	claude	2026-10-21T07:30:58Z	test(gate): keep ssh remote examples out of the privacy check (#399)
+2c905a5	claude	2026-10-21T07:29:30Z	fix(gate): give the gh alias lookup a typed key (#399)
+836155d	claude	2026-10-21T07:28:01Z	docs: give the #399 differential its final numbers and scope its claims (#399)
+17e3473	claude	2026-10-21T07:16:10Z	test(gate): pin four more parts of the gh reading (#399)
+adadac1	claude	2026-10-21T07:13:08Z	test(gate): pin the -- stop, the floor binding and the mixed gh reading (#399)
+84fcf71	claude	2026-10-21T07:09:50Z	fix(gate): a gh operand from an expansion may name any repo (#399)
+c8c9351	claude	2026-10-21T07:05:28Z	fix(gate): list more gh commands in the table of options (#399)
+08b494e	claude	2026-10-21T06:58:37Z	fix(gate): read gh -R as gh does (#399)
+89b2573	claude	2026-10-21T06:52:38Z	fix(gate): a line whose earlier gh reading is outward stays outward (#399)
+60ecd80	claude	2026-10-21T06:51:21Z	fix(gate): pass over empty words and read gh's aliases (#399)
+4b52db5	claude	2026-10-21T06:45:48Z	fix(gate): take a gh api endpoint from its operand (#399)
+89bf158	claude	2026-10-21T06:37:59Z	fix(gate): an ssh host stands for an empty gh target of any reading (#399)
+723ffec	claude	2026-10-21T06:28:29Z	Say in the test notes that one-command lines are decided as before (#394)
+cd8c7fa	claude	2026-10-21T06:11:52Z	Use a rule example that the own text test changes (#394)
+5ba1d07	claude	2026-10-21T06:10:43Z	Pin that a nested shell is given its stdin text once (#394)
+ea484d4	claude	2026-10-21T06:10:35Z	Pin each clause of the commands a lowering rule must name (#394)
+c9a5804	claude	2026-10-21T06:10:15Z	Pin that the 191 pass keeps the reason from before (#394)
+fda67a0	claude	2026-10-21T06:04:50Z	Decide a line of one command beside parts the gate made as before (#394)
+0daf842	claude	2026-10-21T05:58:48Z	A reader behind a wrapper takes the text of the pipe it reads (#394)
+1fc5f1c	claude	2026-10-21T05:55:54Z	Keep the pipeline texts of a line's stdin readers linear (#394)
+615e85b	claude	2026-10-21T05:38:50Z	fix(gate): find a gh subcommand past the options before it (#399)
+d6794f0	claude	2026-10-21T05:12:58Z	test(gate): pin each axis of the merge of gh readings (#399)
+ddc1568	claude	2026-10-21T05:10:20Z	fix(gate): the ask names every target a gh line may land on (#399)
+109cbac	claude	2026-10-21T05:04:58Z	fix(gate): a grant on one target does not run a gh line with others (#399)
+2b49ef8	claude	2026-10-21T04:25:15Z	fix(gate): take a gh command's repo from -R and its operands (#399)
+0df0336	claude	2026-10-21T03:26:23Z	Pin that no part keeps the reader's stand-in text (#394)
+d774f31	claude	2026-10-21T03:22:33Z	Find a shell that reads inherited stdin once per line (#394)
+7c66a2a	claude	2026-10-21T03:20:06Z	Decide as before when the own text pass fails (#394)
+df745b7	claude	2026-10-21T03:18:31Z	Read each stdin text once per line again (#394)
+f85c3f5	claude	2026-10-21T02:10:39Z	A rule that would lower a line must match it as before (#394)
+8969a1f	claude	2026-10-21T01:04:22Z	Pin that riders alike but for their text are judged apart (#394)
+24309d9	claude	2026-10-21T01:02:47Z	A nested shell takes the text of the command whose stdin it reads (#394)
+9d8f4c7	claude	2026-10-21T00:29:57Z	A call found in code keeps the code's own text (#394)
+732608c	claude	2026-10-21T00:21:59Z	A shell that runs a pipe carries the pipeline as its own text (#394)
+c19915c	claude	2026-10-21T00:17:00Z	An ask rule for another command no longer lifts a part's deny (#394)
+d3f298f	ahrazzle	2026-10-21T00:16:41Z	Merge pull request #390 from aska-digital/docs/d038-stale-344
+ab09477	ahrazzle	2026-10-21T00:15:50Z	Merge pull request #392 from aska-digital/fix/gate-close-comment-326
+e59bbe6	claude	2026-10-21T00:13:02Z	A command that sets shell state must be named by an allow rule (#394)
+c904029	claude	2026-10-21T00:08:12Z	A command stricter alone no longer rides on an allow rule (#394)
+2716284	ahrazzle	2026-10-20T23:40:10Z	Docs: fix the stale-D-038 guard and the template claim after review (#390)
+2a25f2f	ahrazzle	2026-10-20T22:11:38Z	fix(gate): check a close's comment under the posting rules (#326)
+b6ae3a1	claude	2026-10-20T23:09:52Z	Build a part's own text test only when a rule needs it (#394)
+8c5e722	claude	2026-10-20T23:05:05Z	Record own text with less work per simple command (#394)
+30ef391	ahrazzle	2026-10-20T23:00:24Z	Merge pull request #391 from aska-digital/fix/stock-summary-carry-385
+0b8c1a5	claude	2026-10-20T22:52:11Z	Allow and log command rules match only the command they name (#394)
+de6278b	shahid arifuddin	2026-10-20T07:51:16Z	Merge main into fix/gate-store-name-forms
+73c06e9	mozi	2026-10-20T22:31:27Z	fix(provenance): pins follow the session, open decisions stay the principal's (#391 review)
+431307e	mozi	2026-10-20T22:04:17Z	Merge remote-tracking branch 'origin/main' into fix/stock-summary-carry-385
+afa0b7c	orda-aska	2026-10-20T22:03:17Z	Merge pull request #387 from aska-digital/refactor/core-reduction-373
+dea8083	mozi	2026-10-20T21:37:02Z	fix(provenance): a summary row carries nothing, in a user row too (#385)
+2b2430f	mozi	2026-10-20T21:49:27Z	Merge remote-tracking branch 'origin/main' into refactor/core-reduction-373
+83b6631	claude	2026-10-20T21:47:35Z	Merge main 6f72f931 (#384, #386), no conflicts
+d1ace0e	ahrazzle	2026-10-20T21:44:27Z	Docs: D-038 text no longer says a categories: deny sees only the dominant part (#344)
+02552f4	ahrazzle	2026-10-20T21:40:52Z	Merge pull request #386 from aska-digital/fix/gate-value-nest-334
+807f94b	claude	2026-10-20T21:40:43Z	Merge main 4de405d8 (#384), no conflicts
+979cfd2	ahrazzle	2026-10-20T21:38:12Z	Merge pull request #384 from aska-digital/fix/host-summary-carry-371
+b0d5a8c	mozi	2026-10-20T21:14:26Z	refactor(core): cut 40 counted lines, undo the #346 headroom raise (#373)
+822b863	claude	2026-10-20T21:03:43Z	Merge main 803261dc and keep both sides' CHANGELOG entries
+b49e97a	claude	2026-10-20T20:53:21Z	Merge origin/main 803261dc into fix/gate-value-nest-334
+0dc1fac	mozi	2026-10-20T20:52:50Z	Carry by session pins, not by trusting a flagged summary row (#384 review)
+a5f6733	mozi	2026-10-20T19:54:55Z	Merge remote-tracking branch 'origin/main' into fix/host-summary-carry-371
+3482266	ahrazzle	2026-10-20T19:47:46Z	Merge pull request #383 from aska-digital/types/bus-config-264
+4f7b000	mozi	2026-10-20T19:43:45Z	Carry a host summary in an assistant row by its flag (fixes #371)
+b2efe51	claude	2026-10-20T19:28:06Z	Merge origin/main into fix/gate-value-nest-334
+757d54c	mozi	2026-10-20T19:21:59Z	Merge remote-tracking branch 'origin/main' into types/bus-config-264
+861c0ac	ahrazzle	2026-10-20T19:16:23Z	Merge pull request #382 from aska-digital/fix/defuse-views-381
+dadb2d4	mozi	2026-10-20T19:08:53Z	State env() defaults in bus config overloads, prune seven diagnostics (Refs #264)
+b4a7f77	claude	2026-10-20T18:57:29Z	Docs: two more ways a deny after an unread nest can ask (#334)
+3b9a378	claude	2026-10-20T18:57:07Z	Gate: decide scopes and walks each shared part once (#334)
+b18ccb7	mozi	2026-10-20T18:52:47Z	Merge remote-tracking branch 'origin/main' into fix/defuse-views-381
+89361e5	claude	2026-10-20T18:52:47Z	Gate: drop the budget replay of the per-call memo (#334)
+5a356fc	ahrazzle	2026-10-20T18:51:21Z	Merge pull request #346 from aska-digital/sweep/job-notice-followup
+eb81bca	claude	2026-10-20T18:50:43Z	Gate: spell a delimiter's end line from the first level (#334)
+3ada3e9	mozi	2026-10-20T18:49:21Z	Escape the pinned-block tag under every same-length fold (fixes #381)
+2613421	claude	2026-10-20T18:49:10Z	Gate: a run of stand-in lines is read in one step (#334)
+a36322c	claude	2026-10-20T18:49:06Z	Merge origin/main cb4a6e0c into sweep/job-notice-followup
+bc83396	ahrazzle	2026-10-20T18:45:44Z	Merge pull request #380 from aska-digital/fix/pinned-parse-linear-322
+0d48eb9	claude	2026-10-20T18:41:36Z	Merge origin/main into fix/gate-value-nest-334
+69428bd	mozi	2026-10-20T18:18:50Z	Merge remote-tracking branch 'origin/main' into fix/pinned-parse-linear-322
+9f49953	ahrazzle	2026-10-20T18:16:49Z	Merge pull request #379 from aska-digital/fix/defuse-unicode-322
+ad74390	mozi	2026-10-20T18:06:35Z	Parse pinned blocks in linear time on unclosed open tags (#322 item 5)
+37ac4b2	mozi	2026-10-20T17:44:25Z	Defuse the pinned-block tag spelled in tag characters or full-width (#322 item 4)
+0bbb139	claude	2026-10-20T17:44:04Z	Merge origin/main e6128d4b into sweep/job-notice-followup
+197cb7d	ahrazzle	2026-10-20T17:23:27Z	Merge pull request #378 from aska-digital/fix/view-parts-defuse-322
+23e8f10	mozi	2026-10-20T17:06:53Z	Escape stored summary text where the tree view prints it (#322 item 3)
+88d0812	ahrazzle	2026-10-20T16:45:52Z	Merge pull request #377 from aska-digital/fix/summary-index-322
+62f3169	claude	2026-10-20T16:41:51Z	Merge origin/main 8600bce8 into sweep/job-notice-followup
+fec8f8e	mozi	2026-10-20T16:35:52Z	Pick the summary the compressor made, not a head message quoting its marker (#322 item 2)
+f3d41c9	ahrazzle	2026-10-20T16:17:16Z	Merge pull request #376 from aska-digital/fix/malformed-meta-guard
+117ab22	mozi	2026-10-20T16:04:34Z	A stamped dict with malformed meta keeps its stamp (fixes #375)
+7434565	claude	2026-10-20T16:03:28Z	Gate: a quoted delimiter that holds an unread nest pairs with its end (#334)
+0fced5f	claude	2026-10-20T15:52:19Z	Merge origin/main into fix/gate-value-nest-334
+18db0c4	claude	2026-10-20T15:48:39Z	Merge origin/main 86321a2f into sweep/job-notice-followup
+e013252	ahrazzle	2026-10-20T15:47:00Z	Merge pull request #374 from aska-digital/fix/ingress-empty-tag
+0f5e1be	mozi	2026-10-20T15:40:09Z	An empty ingress tag still vetoes: presence, not truthiness (#370 follow-up)
+9c8a76d	mozi	2026-10-20T15:31:50Z	Merge pinned main 20190a2c and retain all changelog entries
+78395d5	claude	2026-10-20T15:24:36Z	Merge origin/main 20190a2c into sweep/job-notice-followup
+8cb281f	ahrazzle	2026-10-20T15:18:34Z	Merge pull request #372 from aska-digital/fix/ingress-veto-author-of-370
+c122bc2	claude	2026-10-20T15:17:37Z	Docs: drop a semicolon from the core budget DOCS-MAP row
+bbdd742	claude	2026-10-20T15:17:20Z	Docs: state the raised core headroom and the job_output cut caveat
+159d603	mozi	2026-10-20T15:12:53Z	Veto peer/bus/job ingress tags in author_of itself (fixes #370)
+ea2d9b9	claude	2026-10-20T14:52:42Z	Merge origin/main fd65fe8c into sweep/job-notice-followup
+2c82e19	mozi	2026-10-20T14:43:40Z	Merge current main and preserve feature changelog entry
+43c79aa	claude	2026-10-20T14:29:54Z	Merge origin/main into fix/gate-value-nest-334
+005e9af	ahrazzle	2026-10-20T14:18:52Z	Merge pull request #369 from aska-digital/docs/w12-final-shape
+f54a42c	ahrazzle	2026-10-20T14:17:58Z	Merge pull request #368 from aska-digital/fix/may-carry-principal-evidence-322
+dce2a52	mozi	2026-10-20T13:58:31Z	Docs: W1-2 rows describe the shipped limited-page correlated count
+f5bb9e7	mozi	2026-10-20T13:53:47Z	Read host dicts by author_of so a meta-tagged or untagged assistant dict cannot carry a pinned block (#322 item 1)
+8e78dc2	claude	2026-10-20T13:47:32Z	Raise CORE_HEADROOM by 29 for the job notice fixes (D-077)
+99f54a2	claude	2026-10-20T13:46:01Z	Merge origin/main 8c0052a2 into sweep/job-notice-followup
+8b51791	orda-aska	2026-10-20T13:39:01Z	Merge pull request #362 from aska-digital/perf/grep-stream-255
+98e39f9	mozi	2026-10-20T13:38:16Z	Merge remote-tracking branch 'origin/main' into perf/grep-stream-255
+c087d17	ahrazzle	2026-10-20T13:31:11Z	Merge pull request #367 from aska-digital/fix/list-sessions-limit-first-365
+ebb0420	mozi	2026-10-20T13:27:56Z	Tools: explicit seam cases for streamed grep lines (#255 W1-4)
+5d84488	mozi	2026-10-20T13:27:18Z	Merge remote-tracking branch 'origin/main' into perf/grep-stream-255
+af19714	claude	2026-10-20T13:25:05Z	Merge origin/main 60cd22ae into sweep/job-notice-followup
+5053e28	claude	2026-10-20T13:24:55Z	Shut the notice pool down when a hard stop lands while close() stops jobs
+cab2cb5	mozi	2026-10-20T13:24:51Z	Merge remote-tracking branch 'origin/main' into fix/list-sessions-limit-first-365
+2748145	mozi	2026-10-20T13:24:51Z	Sessions: count only the sessions the limit keeps (#365)
+ae71bf7	mozi	2026-10-20T13:19:33Z	Merge current main and retain both changelog entries
+ff82670	ahrazzle	2026-10-20T13:17:10Z	Merge pull request #352 from aska-digital/fix/deploy-guard-350
+7d8b808	claude	2026-10-20T12:59:55Z	Merge origin/main into fix/gate-value-nest-334
+4b04b1f	claude	2026-10-20T12:59:07Z	Tests: guard the parts of the nest cut that no test covered (#334)
+e9a636b	claude	2026-10-20T12:57:58Z	Gate: the levels around an unread nest pair each here-doc with its end (#334)
+575e7d3	mozi	2026-10-20T12:56:48Z	fix(tui): show steer delivery and keyboard approval access
+22b7d5e	mozi	2026-10-20T12:49:26Z	Tools: trim the streaming helper inside the core budget (#255 W1-4)
+a67a49a	mozi	2026-10-20T12:48:31Z	Merge remote-tracking branch 'origin/main' into perf/grep-stream-255
+3e7128c	mozi	2026-10-20T12:47:25Z	Tools: grep streams each file instead of decoding it whole (#255 W1-4)
+ac4248e	mozi	2026-10-20T12:30:07Z	D-047 amendment: name the not-a-directory refusal
+1930660	claude	2026-10-20T12:28:47Z	Shut the notice pool down when a hard stop cancels close()
+cf5e089	mozi	2026-10-20T12:26:08Z	Deploy guard: check the symlink-mode entry before the untracked listing and tighten its test
+5374bac	claude	2026-10-20T12:24:39Z	Merge origin/main 8e19e580 into sweep/job-notice-followup
+ac15688	claude	2026-10-20T12:23:25Z	Give back nine core lines in jobs.py before main's next merge
+570e982	mozi	2026-10-20T12:22:49Z	Deploy guard: refuse a failed git status and a symlinked site root (#358, #359)
+7eb84c8	mozi	2026-10-20T12:22:14Z	Merge remote-tracking branch 'origin/main' into fix/deploy-guard-350
+86e8d3a	ahrazzle	2026-10-20T12:16:35Z	Merge pull request #357 from aska-digital/fix/list-sessions-limit-356
+4eeac99	ahrazzle	2026-10-20T12:14:47Z	Merge pull request #354 from aska-digital/perf/config-load-cache-255
+e3c31db	mozi	2026-10-20T12:12:03Z	Merge remote-tracking branch 'origin/main' into perf/config-load-cache-255
+58b3f52	mozi	2026-10-20T11:53:56Z	Sessions: count only the listed rows, add the W1-2 map row (#255)
+10a4820	claude	2026-10-20T11:59:33Z	Merge origin/main into fix/gate-value-nest-334
+591638f	ahrazzle	2026-10-20T11:53:22Z	Merge pull request #351 from aska-digital/perf/list-sessions-join-255
+6fea12b	ahrazzle	2026-10-20T11:53:07Z	Merge pull request #355 from aska-digital/fix/handoff-next-steps-forge
+b26b3a8	mozi	2026-10-20T11:49:54Z	Handoff: a forged Next steps can no longer beat the genuine one (#353)
+83903a0	mozi	2026-10-20T11:36:01Z	Config: cache load() on size and mtime_ns, deep copy out (#255 W1-3)
+dc7a231	mozi	2026-10-20T11:28:39Z	Test that a failed untracked-file listing stops the deploy
+5da4461	mozi	2026-10-20T11:27:46Z	Merge remote-tracking branch 'origin/main' into fix/deploy-guard-350
+e2cb865	claude	2026-10-20T11:16:04Z	Merge origin/main e46bd4c9 into sweep/job-notice-followup
+cb36889	mozi	2026-10-20T11:15:02Z	Merge remote-tracking branch 'origin/main' into perf/list-sessions-join-255
+b4c3683	mozi	2026-10-20T11:15:02Z	Sessions: list_sessions reads message counts in one query (#255 W1-2)
+d3c4218	claude	2026-10-20T11:14:41Z	Keep the engine's trace sink until its close steps end
+957ab01	ahrazzle	2026-10-20T11:10:18Z	Merge pull request #349 from aska-digital/fix/handoff-heading-spoof-315
+e5e0b0f	mozi	2026-10-20T11:09:35Z	Close the deploy guard gaps for submodules, a failed inventory and an empty CLI override
+b4162aa	claude	2026-10-20T11:06:33Z	Shut the notice thread down in close() after its last build
+abffe74	orda-aska	2026-10-20T10:57:11Z	Merge pull request #348 from aska-digital/proteus/fix-345-stress-baseline-20261020
+e313d9f	claude	2026-10-20T10:54:43Z	Read more of the rotated log until no key chain reaches the notice
+fa3e374	mozi	2026-10-20T10:49:08Z	Handoff: quote the State summary so it cannot forge a principal section (#315)
+8d43f87	mozi	2026-10-20T10:42:52Z	test(core): collect garbage before the sink baseline in the stress test
+0fc1e11	claude	2026-10-20T10:41:13Z	Docs: map this PR's doc places and amend D-032 for the notice thread
+50761ea	claude	2026-10-20T10:29:00Z	Merge origin/main into sweep/job-notice-followup
+6edc7b9	ahrazzle	2026-10-20T10:05:32Z	Merge pull request #347 from aska-digital/exo-deploy-pin-20261020
+cf16fd7	mozi	2026-10-20T09:47:56Z	deploy-site.sh: pin the Vercel CLI and refuse untracked files in site/
+b95f70a	claude	2026-10-20T08:38:01Z	Tests: say which nest cases main still passes (#334)
+c2b81ef	claude	2026-10-20T08:09:07Z	Docs: say which notices shutdown keeps and which split keys can still leave a part
+7144de2	claude	2026-10-20T07:42:37Z	Docs: cite #335 for the git -c fix
+3fc2b46	claude	2026-10-20T05:33:23Z	Gate: a git -c key keeps git's subcommand, so a deny on it fires (#334)
+f568594	claude	2026-10-20T05:33:02Z	Gate: read a $( ) nest once per depth and 16 levels deep (#334)
+ff80489	claude	2026-10-20T05:10:09Z	Steer a lost job's notice into a running turn
+3230403	claude	2026-10-20T04:06:58Z	Report a lost job's notice that fails
+241d393	claude	2026-10-20T04:00:26Z	Docs: the stall numbers at the head and a rotation between reads
+967f37f	claude	2026-10-20T03:58:49Z	Read only the end of the rotated log for the notice
+fec0d78	claude	2026-10-20T03:57:32Z	Never redact less after a rotation than the live log alone
+94a17d0	claude	2026-10-20T03:51:13Z	Send a job's end event when a hard stop cancels its notice
+b791dce	claude	2026-10-20T03:50:05Z	Build job notices in a thread of their own
+07225f9	claude	2026-10-20T03:48:38Z	Keep recover() free of awaits so the runtime starts once
+8565593	claude	2026-10-20T02:45:07Z	Cut known key values out of the command in job events
+143bbb5	claude	2026-10-20T02:42:57Z	Keep a key split at rotation whole in job_output
+80be2fe	claude	2026-10-20T02:41:28Z	Cut out a key split at log rotation from the job notice
+6cb89fa	claude	2026-10-20T02:37:08Z	Build job notices off the event loop, in order
+ccc5dcb	orda-aska	2026-10-20T01:30:36Z	Merge pull request #318 from aska-digital/docs/wp-stray-comma
+66b1560	orda-aska	2026-10-20T01:28:34Z	Merge pull request #305 from aska-digital/fix/gate-store-names-210-269-217
+d535dce	orda-aska	2026-10-20T01:13:39Z	Merge pull request #332 from aska-digital/refactor/core-reduction-d077
+5fe9691	mozi	2026-10-20T01:05:40Z	Merge main into fix/gate-store-names-210-269-217
+75f776b	orda-aska	2026-10-20T00:57:19Z	Merge pull request #231 from aska-digital/fix/gate-env-inject-config-2
+00b4157	mozi	2026-10-20T00:49:33Z	Gate: end a heredoc on the exact delimiter line (#328)
+eebb0b1	mozi	2026-10-20T00:50:22Z	Gate: a descriptor-path card says the path is unresolved; charge the budget per path part
+4a009d8	mozi	2026-10-20T00:46:56Z	Merge main into refactor/core-reduction-d077
+0b5f155	mozi	2026-10-20T00:44:38Z	Merge remote-tracking branch 'origin/main' into fix/gate-store-names-210-269-217
+ccf7327	mozi	2026-10-20T00:44:03Z	Reduce the counted core by 94 lines with no behavior change (D-077)
+1b0ac9e	orda-aska	2026-10-20T00:41:33Z	Merge pull request #314 from aska-digital/fix/serve-start-lock-242
+4ca1ac4	mozi	2026-10-20T00:33:10Z	Merge origin/main into fix/gate-env-inject-config-2
+d70997c	mozi	2026-10-20T00:31:20Z	Gate: a quoted $PATH or a .. folder gets no PATH exemption; git config -t and prefixes
+433c729	orda-aska	2026-10-20T00:27:51Z	Merge pull request #306 from aska-digital/fix/gate-policy-191-211-208
+2e58c03	mozi	2026-10-20T00:27:11Z	Merge origin/main into fix/gate-env-inject-config-2
+2cade9a	mozi	2026-10-20T00:24:00Z	Raise CORE_HEADROOM by 58 for the serve start lock (D-077)
+d4e24f3	mozi	2026-10-20T00:22:06Z	Merge remote-tracking branch 'origin/main' into fix/serve-start-lock-242
+60924a0	mozi	2026-10-20T00:16:12Z	Merge remote-tracking branch 'origin/main' into fix/gate-store-names-210-269-217
+d85f249	orda-aska	2026-10-20T00:11:28Z	Merge pull request #325 from aska-digital/fix/peer-auth-followups-226

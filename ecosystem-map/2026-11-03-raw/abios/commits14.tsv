@@ -1,0 +1,4 @@
+21154fd	abu-aska	2026-10-30T23:14:04Z	Merge pull request #26 from Moissanite-Labs/fix/gate-skip-git-pointer-file
+b3b76c1	abu-aska	2026-10-30T23:13:10Z	Merge pull request #29 from Moissanite-Labs/fix/ci-pin-ubuntu-24.04
+7ae647f	claude	2026-10-30T22:07:35Z	CI: pin ubuntu-24.04 so the Python 3.9 job can run
+85613bb	claude	2026-10-30T21:57:15Z	Leak gate: skip the .git pointer file in worktree checkouts

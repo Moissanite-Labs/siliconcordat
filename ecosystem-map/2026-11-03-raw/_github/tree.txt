@@ -1,0 +1,10 @@
+.github/workflows/pages.yml
+README.md
+docs/assets/favicon.svg
+docs/assets/lattice.svg
+docs/assets/social.png
+docs/assets/social.svg
+docs/index.html
+docs/styles.css
+profile/README.md
+scripts/check_site.py
