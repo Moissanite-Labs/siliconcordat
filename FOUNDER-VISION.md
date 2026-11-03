@@ -38,6 +38,30 @@ The proposed Ethos catalogue would let users opt in to making their ethos availa
 
 The founder directed that [Exo](https://github.com/Moissanite-Labs/exo) serve as the shared core engine for the CLI, desktop app, and Exo OS, and created [exo-cli](https://github.com/Moissanite-Labs/exo-cli) as a fork intended to give the CLI a separate repository. The boundary and migration are now under reconsideration in light of issue and pull-request provenance. Do not assume extraction is complete or that a final migration plan has been selected. [Exo Desktop](https://github.com/Moissanite-Labs/exo-desktop) is an existing repository; Exo OS is part of the intended architecture. Their exact shared-engine interfaces and release process remain open.
 
+## One connected undertaking
+
+Everything in this ecosystem is one connected undertaking. Exo, Exofab, Synbios, Koinos, and Ethos are separate repositories and tools that can be used on their own. Their separate boundaries are a way to build and use the work, not separate ultimate purposes.
+
+The shared direction is human-agent amplification. People and agents should amplify each other's ability to understand, create, coordinate, and bring useful things into the world. Amplification should expand a person's effective agency and capacity for meaningful work, not reduce the person to supervising one automated objective.
+
+Plural flourishing is the guiding aspiration. Different people, communities, goals, and ways of living should have room to thrive. It is an aspiration, not a single score to optimize and not a mandate to impose one way of life.
+
+### What exists, what is proposed, what is longer term
+
+Exo repositories exist for the core engine, the CLI, the desktop app, and the OS experience, with their shared boundary still under review.
+
+The Koinos protocol has an experimental reference implementation, version 0.1, in the synmerit repository. It does not operate an economic network or transfer money.
+
+Exofab is a planned human-first or hybrid collaboration hub. Ethos is a planned portable preference protocol.
+
+Versioned contracts for projects, contributions, evidence, identity, and delegation are proposed, not yet built as a complete system. An opt-in Ethos catalogue is proposed for later, after a private Ethos minimum version.
+
+A post-economic transition is a longer-term horizon for exploration, not a prediction. Growing productive capacity could reduce how strongly access to livelihood, creative participation, and a good life is constrained by economic necessity.
+
+Scarcity, coordination problems, trade-offs, and the need for accountable institutions would remain. Present collaboration and economic mechanisms are judged on their own evidence.
+
+This section does not replace the constraints in the Siliconcordat. Human agency, consent, and accountable review still govern. A learned preference is not permission. Ethos records stay private by default, and publication requires explicit, granular opt-in. Economic arrangements require explicit human agreements.
+
 ## Decisions and open questions
 
 **Chosen:** Moissanite Labs as the organization; Siliconcordat as the manifesto name; Exofab as the collaboration hub name; Ethos as the separate portable taste/preference protocol and repository; Synbios as the agent-first forge and Koinos as the collaboration protocol, each with a separate repository from the human-first or hybrid hub; an open-building approach.
