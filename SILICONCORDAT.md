@@ -30,6 +30,8 @@ Ethos should support explicit and inferred preferences as distinguishable record
 
 ## Initial milestones
 
+Apply the [product decision guidance](PRODUCT-DECISIONS.md) throughout: settle what the next safe, useful slice needs, keep other choices open with a reason to revisit them, and update plans from evidence. The milestones below do not require every future design choice to be resolved in advance.
+
 1. **Agree boundaries and ownership.** Review this document; choose initial maintainers, open decisions, naming process and repository ownership. Inventory what already exists before changing repositories.
 2. **Establish the Exo core boundary.** Inventory the current core and forked CLI, including issue and pull-request provenance; decide how to manage the boundary, then define interfaces and versioning with tests that preserve behavior. Plan and verify how desktop and Exo OS consume the same core.
 3. **Ship one end-to-end slice.** Create a project in Exofab; delegate a scoped task to an agent; produce a forge artifact with tests and human review; record an accepted contribution and its evidence in Exofab; export a portable representation. Record any economic allocations in explicit human agreements rather than automating them.
@@ -39,6 +41,8 @@ Ethos should support explicit and inferred preferences as distinguishable record
 
 ## Decisions to make
 
+These are open questions, not a single upfront approval checklist. Each product owner should bring forward the relevant choice when a real use case, dependency or latest safe decision point requires it.
+
 - What naming checks and protections, if any, are appropriate for the chosen names?
 - What stable engine API, packaging, compatibility policy, and release process will let the CLI, desktop app, and Exo OS evolve independently while using the same core?
 - How should Koinos contracts and implementation be divided among its repository and product adapters as the first implementations establish their boundaries?
@@ -47,3 +51,4 @@ Ethos should support explicit and inferred preferences as distinguishable record
 - Who owns an Ethos record, how are conflicts across devices resolved, and what retention, deletion and publication controls are appropriate?
 - What licensing, governance, maintainer responsibilities and decision procedures should apply across repositories?
 - How should collaboration agreements, credit and potential economic interests be documented and reviewed by participants and qualified advisers?
+

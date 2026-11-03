@@ -14,6 +14,7 @@ We intend to build for:
 4. **Traceability.** Preserve useful provenance for contributions, decisions, and imported preferences, while respecting confidentiality and consent.
 5. **Real-world outcomes.** Favor working, reviewable paths from an idea to a delivered artifact and explicit human agreements over abstractions that have not yet been tested.
 6. **Adaptation with control.** Agents may learn from a user's habits and preferences, with user inspection, correction, and control over how those learnings are used.
+7. **Decide in context.** Keep major product choices open while useful learning is possible; decide when the choice becomes relevant, before waiting causes avoidable harm or closes options. Use real evidence, reversible defaults and explicit authority, and revisit choices when reality changes. See [product decision guidance](PRODUCT-DECISIONS.md).
 
 
 ## Building the ecosystem
@@ -27,3 +28,4 @@ These are directions for work, not claims that the proposed capabilities already
 - [Founder vision and decision record](FOUNDER-VISION.md) — the original direction, chosen names, and open decisions.
 - [Ecosystem architecture and roadmap](SILICONCORDAT.md) — proposed component boundaries, milestones, and questions.
 - [Naming record](NAMING.md) — chosen names, founder intent, and wordplay.
+
