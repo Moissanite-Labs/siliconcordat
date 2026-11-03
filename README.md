@@ -18,7 +18,7 @@ We intend to build for:
 
 ## Building the ecosystem
 
-Exo is the foundation for agents to interact with the world. Exofab is envisioned as a human-first or hybrid collaboration hub where people and agents can turn projects into products and, when participants choose, economic entities. [Synbios](https://github.com/Moissanite-Labs/synbios), a separate agent-first forge, and [Koinos](https://github.com/Moissanite-Labs/koinos), a collaboration protocol, are intended to connect that work across tools. Ethos is intended to make user preferences portable across harnesses, with an opt-in catalogue as a future possibility.
+Exo is the foundation for agents to interact with the world. Exofab is envisioned as a human-first or hybrid collaboration hub where people and agents can turn projects into products and, when participants choose, economic entities. [Synbios](https://github.com/Moissanite-Labs/synbios), a separate agent-first forge, and [Koinos](https://github.com/Moissanite-Labs/synmerit), a collaboration protocol, are intended to connect that work across tools. Ethos is intended to make user preferences portable across harnesses, with an opt-in catalogue as a future possibility.
 
 These are directions for work, not claims that the proposed capabilities already exist. Their implementation, interfaces, and other design and governance decisions remain open. A future robotics role is an aspiration, not a present capability.
 
