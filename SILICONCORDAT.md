@@ -12,13 +12,13 @@ The [Siliconcordat in the README](README.md) is the canonical working manifesto 
 | **Exo CLI** | Provide the command-line interface to Exo. | [Moissanite-Labs/exo-cli](https://github.com/Moissanite-Labs/exo-cli) is a separate repository, initially forked from Exo. The extraction and its source-of-truth boundary are being reconsidered and are not complete. |
 | **Exo desktop and Exo OS** | Provide desktop and operating-system experiences built on Exo. | Both are intended to use the shared core engine. Their interfaces and integration details remain to be defined and verified. |
 | **Exofab** | A production and collaboration hub where people and agents find one another, develop projects, and bring products and companies into the world. | Human-first, with interfaces for agents to assist and automate authorized work. Robotics could eventually extend production when the technology is ready; it is an aspiration, not a present capability. |
-| **Agent forge** | A development forge designed for agents first, analogous in scope to a GitHub alternative. | A separate repository and product from Exofab, optimized for agent-native development while remaining understandable and reviewable by people. |
-| **Collaboration protocol** | Shared contracts for contributions, provenance, collaboration and the lifecycle from project to economic entity. | Proposed as a small, separate specification and conformance repository so Exofab, the forge, and outside tools can interoperate. Its final placement and name remain open. |
+| **[Synbios](https://github.com/Moissanite-Labs/synbios)** | A development forge designed for agents first, analogous in scope to a GitHub alternative. | A separate repository and product from Exofab, optimized for agent-native development while remaining understandable and reviewable by people. |
+| **[Koinos](https://github.com/Moissanite-Labs/koinos)** | Shared contracts for contributions, provenance, collaboration and the lifecycle from project to economic entity. | Its own repository provides a home for a reusable protocol connecting Exofab, the forge, and outside tools. Its specification and implementation remain to be designed. |
 | **Ethos** | A harness-neutral protocol for carrying and updating a user's learned preferences, tendencies and character across inference surfaces. | Its own repository. Adapters connect individual harnesses; it is distinct from the collaboration protocol, though both can use compatible identity, consent and provenance concepts. |
 | **Ethos catalogue** | A potential place to discover and selectively reuse preferences or whole ethos libraries that their owners choose to publish. | Separately permissioned and later than the private Ethos MVP. Publication is opt-in, not the default. |
 | **Constitution** | The organization’s principles, operating procedures, rules and evolving decisions. | The Siliconcordat is the manifesto document within the constitution repository; it is not a repository rename. |
 
-The naming vocabulary may draw on Greek roots and the themes of synthetic or *synthetikos*, cyber or *kyber*, and symbiosis. “Exofab” evokes a fabrication facility where agent-assisted products and companies are made. The forge and collaboration protocol do not yet have chosen names. **Synergon** and **Koinon**, respectively, are options for discussion; **Synforge** and **Symbios** are alternatives, subject to linguistic, trademark, domain and community review.
+See the [naming record](NAMING.md) for the chosen names, their inspirations, and the distinction between etymology and founder wordplay.
 
 ## How the pieces fit
 
@@ -39,9 +39,9 @@ Ethos should support explicit and inferred preferences as distinguishable record
 
 ## Decisions to make
 
-- What are the forge and collaboration protocol called, and what naming checks are required?
+- What naming checks and protections, if any, are appropriate for the chosen names?
 - What stable engine API, packaging, compatibility policy, and release process will let the CLI, desktop app, and Exo OS evolve independently while using the same core?
-- Should the collaboration protocol be a standalone repository now, or extracted after the first product implementations establish its boundaries?
+- How should Koinos contracts and implementation be divided among its repository and product adapters as the first implementations establish their boundaries?
 - Which identity, authorization and delegation model works across human and agent participants? How are authority and revocation represented?
 - What minimum contribution and provenance records are portable, and what must remain private?
 - Who owns an Ethos record, how are conflicts across devices resolved, and what retention, deletion and publication controls are appropriate?

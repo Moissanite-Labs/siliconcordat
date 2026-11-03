@@ -20,13 +20,13 @@ The founder's vision connects the Exo ecosystem as one system for helping projec
 
 [Exofab](https://github.com/Moissanite-Labs/exofab) is the chosen name and repository for the collaboration hub; “fab” evokes a production factory for agent-built products and companies. The founder described the ambition as “hitrecord meets tinder meets linkedin”: a communal building hub where app builders find business partners and people with ideas and markets find builders. Humans should be able to collaborate directly and send agents to help or automate work. The experience should be human-first or hybrid so both people and agents can use it effectively. The longer-term vision is to integrate robotics when the technology is ready, enabling more autonomous creation. These are ambitions, not claims that those workflows already exist.
 
-### Agent-first development forge
+### Synbios: agent-first development forge
 
-The forge is envisioned as a GitHub alternative designed for agents first. The founder chose a separate repository from Exofab because the two products have different primary users and interaction designs, even though they are deeply connected. Its name, implementation, and specific interfaces are not yet chosen.
+The forge is envisioned as a GitHub alternative designed for agents first. The founder chose a separate repository from Exofab because the two products have different primary users and interaction designs, even though they are deeply connected. The chosen name is [Synbios](https://github.com/Moissanite-Labs/synbios); implementation and specific interfaces remain open.
 
-### Collaboration protocol
+### Koinos: collaboration protocol
 
-A protocol would connect the forge and hub and support projects, contributions, provenance, collaboration, and the path to economic entities. The founder is deciding whether it belongs in Exofab or in a separate repository that others could adopt as a general framework. A separate, small specification with independently usable adapters is one recommendation, not a settled decision. The protocol's name is also open.
+A protocol would connect the forge and hub and support projects, contributions, provenance, collaboration, and the path to economic entities. The founder chose [Koinos](https://github.com/Moissanite-Labs/koinos) as the name and established its own repository. Its contracts, implementation, and relationship to Exofab and other adopters remain to be designed.
 
 ## Ethos and the catalogue
 
@@ -40,10 +40,12 @@ The founder directed that [Exo](https://github.com/Moissanite-Labs/exo) serve as
 
 ## Decisions and open questions
 
-**Chosen:** Moissanite Labs as the organization; Siliconcordat as the manifesto name; Exofab as the collaboration hub name; Ethos as the separate portable taste/preference protocol and repository; separate agent-first forge and human-first or hybrid hub repositories; an open-building approach.
+**Chosen:** Moissanite Labs as the organization; Siliconcordat as the manifesto name; Exofab as the collaboration hub name; Ethos as the separate portable taste/preference protocol and repository; Synbios as the agent-first forge and Koinos as the collaboration protocol, each with a separate repository from the human-first or hybrid hub; an open-building approach.
 
 **Direction under review:** the precise migration and source-of-truth boundaries among Exo core, the new CLI fork, desktop, and Exo OS.
 
-**Open:** names for the forge and collaboration protocol; whether the collaboration protocol merits a standalone repository; interfaces, identity, delegation, provenance, and governance; publication and import consent for Ethos; how contributions, credit, and possible economic rights should be documented; and the timing and feasibility of robotics. Proposed names such as Synergon and Koinon are suggestions only, not decisions.
+**Open:** interfaces, identity, delegation, provenance, and governance; publication and import consent for Ethos; how contributions, credit, and possible economic rights should be documented; and the timing and feasibility of robotics.
 
 This record is a vision and decision log. Validate implementation and migration details in the relevant repositories before acting.
+
+See the [naming record](NAMING.md) for the chosen names, founder intent, and wordplay.
