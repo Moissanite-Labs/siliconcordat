@@ -1,0 +1,10 @@
+README.md
+v0.1/SPEC.md
+v0.1/fixtures/explicit.json
+v0.1/fixtures/inferred.json
+v0.1/fixtures/invalid-inference.json
+v0.1/fixtures/invalid-tombstone.json
+v0.1/fixtures/rejected.json
+v0.1/fixtures/tombstone.json
+v0.1/schema.json
+v0.1/test_fixtures.py

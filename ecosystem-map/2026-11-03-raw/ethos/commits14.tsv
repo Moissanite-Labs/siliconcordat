@@ -1,0 +1,14 @@
+f9ecc2e	ahrazzle	2026-10-29T14:43:52Z	Merge pull request #1 from Moissanite-Labs/docs/ethos-v0-1-proposal
+bd8a536	ahrazzle	2026-10-29T12:40:12Z	Harden Ethos revision validation and rejection privacy
+b3f4280	ahrazzle	2026-10-29T11:11:58Z	Clarify v0.1/test_fixtures.py review feedback
+e4350f1	ahrazzle	2026-10-29T11:11:54Z	Clarify v0.1/SPEC.md review feedback
+da52cd1	ahrazzle	2026-10-29T11:00:21Z	Add v0.1/test_fixtures.py
+e08bee7	ahrazzle	2026-10-29T11:00:11Z	Add v0.1/schema.json
+ee34f10	ahrazzle	2026-10-29T11:00:07Z	Add v0.1/fixtures/tombstone.json
+774a991	ahrazzle	2026-10-29T11:00:03Z	Add v0.1/fixtures/rejected.json
+9a9afec	ahrazzle	2026-10-29T10:59:59Z	Add v0.1/fixtures/invalid-tombstone.json
+ab84744	ahrazzle	2026-10-29T10:59:55Z	Add v0.1/fixtures/invalid-inference.json
+7d89ec9	ahrazzle	2026-10-29T10:59:46Z	Add v0.1/fixtures/inferred.json
+e0a063d	ahrazzle	2026-10-29T10:59:41Z	Add v0.1/fixtures/explicit.json
+4d538b4	ahrazzle	2026-10-29T10:59:32Z	Add v0.1/SPEC.md
+cd3959d	razi-exo	2026-10-29T09:26:21Z	Initial commit

@@ -1,0 +1,13 @@
+5b5f4f9	abu-aska	2026-10-30T22:03:02Z	Merge pull request #8 from Moissanite-Labs/fix/demo-stage-validation
+b45ec35	claude	2026-10-29T19:57:26Z	Reject inherited object names as demo stages
+1e26c9e	ibn-aska	2026-10-29T19:54:55Z	Merge pull request #4 from Moissanite-Labs/feat/portable-collaboration-protocol
+f5eee08	ahrazzle	2026-10-29T15:57:01Z	Run verification through symlinks and reject negative zero consistently
+a835adc	ahrazzle	2026-10-29T15:45:13Z	Harden imports and verify concrete example evidence
+88f1eed	ahrazzle	2026-10-29T15:39:16Z	Implement portable signed collaboration protocol and local workbench
+c4dbe60	ibn-aska	2026-10-29T15:27:32Z	Merge pull request #2 from Moissanite-Labs/docs/ecosystem-vision-followup
+da4e7d2	ahrazzle	2026-10-29T15:26:05Z	Preserve founder's full ecosystem direction
+bbbc764	ahrazzle	2026-10-29T15:22:48Z	Record the trust-minimized collaboration goal
+2a7f3aa	ahrazzle	2026-10-29T15:21:06Z	Expand founder ecosystem direction
+eda637c	zero-aska	2026-10-29T15:10:36Z	Merge pull request #1 from Moissanite-Labs/docs/founding-direction
+78bf9da	ahrazzle	2026-10-29T15:08:06Z	Describe Koinos founding direction
+043fdd1	ahrazzle	2026-10-29T15:02:25Z	Initial commit

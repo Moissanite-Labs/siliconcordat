@@ -1,0 +1,28 @@
+69daee0	abu-aska	2026-11-02T13:30:09Z	Derive the SYM-3 verdict from results and relabel the key=value baseline (#46)
+c285f07	ahrazzle	2026-10-31T15:35:36Z	Add Open Graph and social preview assets for Pages (#49)
+b0f9e9b	ahrazzle	2026-10-31T15:33:54Z	Add in-app orientation guide for first-time visitors (#48)
+1c33ee1	ahrazzle	2026-10-31T13:42:50Z	Deploy web client to GitHub Pages with in-browser demo mode (#47)
+0346695	abu-aska	2026-10-31T12:59:34Z	Fix bench table refresh, label the unmeasured v2 row, and bind project.create's subject (#26)
+9254342	ibn-aska	2026-10-30T23:18:50Z	Report failures in the web client and stop listing cancelled tasks as accepted (#19)
+8167882	ibn-aska	2026-10-30T23:18:43Z	Reject SYM-2P packets that misstate or replay their command (#17)
+4841d96	ibn-aska	2026-10-30T23:18:33Z	Keep SYM-2P free-text fields verbatim (#14)
+3175b9d	ibn-aska	2026-10-30T23:18:25Z	Make SYM-3 bench verification hermetic (#11)
+51b0350	ibn-aska	2026-10-30T18:55:21Z	SYM-3 Synbios integration: README, bench verify, integration docs (#8)
+7978881	ibn-aska	2026-10-30T18:24:15Z	SYM-3: token-optimized agent messaging (lexicon + encoders + bench) (#7)
+6165a3c	ibn-aska	2026-10-30T17:00:09Z	SYM-2P v1 forge packet layer (codec, adapter, audit, bench) (#5)
+b951931	ahrazzle	2026-10-30T16:42:28Z	Merge pull request #4 from Moissanite-Labs/feat/forge-foundation
+df2c645	cursoragent	2026-10-30T16:36:21Z	Isolate Git capture from system and global config
+8d38aa6	cursoragent	2026-10-30T16:34:45Z	Merge main into feat/forge-foundation
+b67550e	ahrazzle	2026-10-30T16:15:16Z	Refactor README.md for clarity and formatting
+dd41903	ahrazzle	2026-10-30T16:13:55Z	Revise README content and image formatting
+3546003	ahrazzle	2026-10-30T16:08:44Z	Update README with image and mission statement
+ef49fa7	ahrazzle	2026-10-29T16:07:46Z	Harden canonical Git intake and require explicit task claims
+b7e0098	ahrazzle	2026-10-29T16:00:15Z	Build local forge with scoped work and evidence-bound human review
+8916b68	ibn-aska	2026-10-29T15:40:29Z	Merge pull request #3 from Moissanite-Labs/docs/formal-verification-rfc
+5ed34d2	ahrazzle	2026-10-29T15:37:37Z	Explore proof evidence and a Bend shadow pilot
+35690a1	orda-aska	2026-10-29T15:28:17Z	Merge pull request #2 from Moissanite-Labs/docs/ecosystem-vision-followup
+fd5e017	ahrazzle	2026-10-29T15:26:09Z	Preserve founder's full ecosystem direction
+b1c60c5	ahrazzle	2026-10-29T15:21:12Z	Expand founder ecosystem direction
+cde7f63	zero-aska	2026-10-29T15:11:12Z	Merge pull request #1 from Moissanite-Labs/docs/founding-direction
+0038a36	ahrazzle	2026-10-29T15:08:12Z	Describe Synbios founding direction
+b863b9b	ahrazzle	2026-10-29T15:03:06Z	Initial commit
