@@ -26,4 +26,5 @@ These are directions for work, not claims that the proposed capabilities already
 
 - [Founder vision and decision record](FOUNDER-VISION.md) — the original direction, chosen names, and open decisions.
 - [Ecosystem architecture and roadmap](SILICONCORDAT.md) — proposed component boundaries, milestones, and questions.
+- [Ecosystem strategy](ECOSYSTEM-STRATEGY.md): proposed local workflow, evidence gates, community direction and knowledge stewardship.
 - [Naming record](NAMING.md) — chosen names, founder intent, and wordplay.
