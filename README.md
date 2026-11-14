@@ -27,3 +27,4 @@ These are directions for work, not claims that the proposed capabilities already
 - [Founder vision and decision record](FOUNDER-VISION.md) — the original direction, chosen names, and open decisions.
 - [Ecosystem architecture and roadmap](SILICONCORDAT.md) — proposed component boundaries, milestones, and questions.
 - [Naming record](NAMING.md) — chosen names, founder intent, and wordplay.
+- [Ideas register](ideas/README.md) — ideas that are not yet projects, and the rule for promoting one to a repository.
