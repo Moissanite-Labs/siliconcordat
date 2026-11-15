@@ -1,6 +1,6 @@
 # Moissanite Labs: founder vision and decisions
 
-> Public-facing working record for review. Intended home: the constitution repository. This captures the founder's direction and distinguishes chosen names and goals from open design questions; it does not claim proposed capabilities already exist.
+> Public-facing working record for review. Home: the compass repository. This captures the founder's direction and distinguishes chosen names and goals from open design questions; it does not claim proposed capabilities already exist.
 
 ## Mission and meaning
 
@@ -10,7 +10,7 @@ Exo takes its name from the Greek idea of “outside”: it gives a digital inte
 
 ## The Siliconcordat
 
-**Siliconcordat** is the chosen name for the organization's manifesto, a play on “silicon” and “concordat.” Its intended purpose is to express collaboration, cooperation, and symbiotic evolution between digital and biological intelligence. The [constitution repository](https://github.com/Moissanite-Labs/constitution) is the intended home for organizational principles, standard operating procedures, rules, and this manifesto. This record and the accompanying manifesto are working proposals; their presence in the repository does not by itself establish their adoption as organizational policy.
+**Siliconcordat** is the chosen name for the organization's manifesto, a play on “silicon” and “concordat.” Its intended purpose is to express collaboration, cooperation, and symbiotic evolution between digital and biological intelligence. The [compass repository](https://github.com/Moissanite-Labs/compass) is the home for organizational principles, standard operating procedures, rules, and this manifesto. This record and the accompanying manifesto are working proposals; their presence in the repository does not by itself establish their adoption as organizational policy.
 
 ## From ideas to real-world ventures
 
@@ -26,7 +26,7 @@ The forge is envisioned as a GitHub alternative designed for agents first. The f
 
 ### Koinos: collaboration protocol
 
-A protocol would connect the forge and hub and support projects, contributions, provenance, collaboration, and the path to economic entities. The founder chose [Koinos](https://github.com/Moissanite-Labs/koinos) as the name and established its own repository. Its contracts, implementation, and relationship to Exofab and other adopters remain to be designed.
+A protocol would connect the forge and hub and support projects, contributions, provenance, collaboration, and the path to economic entities. The founder chose [Koinos](https://github.com/Moissanite-Labs/synmerit) as the name and established its own repository, now named synmerit. Its contracts, implementation, and relationship to Exofab and other adopters remain to be designed.
 
 ## Ethos and the catalogue
 
